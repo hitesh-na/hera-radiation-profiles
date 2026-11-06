@@ -1,0 +1,52 @@
+[
+  {
+    "flight_id": "2025-07-20",
+    "flight_date": "2025-07-20",
+    "drive_id": "1rSZ-VGSCGMajwCK0hJLevA1AV0Dj0g4A",
+    "source_url": "https://drive.google.com/file/d/1rSZ-VGSCGMajwCK0hJLevA1AV0Dj0g4A/view",
+    "original_name": "Alpha CW Datalogger 3-in-Coincident.csv",
+    "expected_bytes": 23232803,
+    "sha256": "234ba73229b450b1a42d3b48d2315cc1125b26039a41458e93f15bdddb4c0b00",
+    "local_path": "raw/2025-07-20_logger.csv"
+  },
+  {
+    "flight_id": "2025-08-24",
+    "flight_date": "2025-08-24",
+    "drive_id": "1uWZDexdaIs9qj7zv-yAaN_DF5VeXQjrG",
+    "source_url": "https://drive.google.com/file/d/1uWZDexdaIs9qj7zv-yAaN_DF5VeXQjrG/view",
+    "original_name": "CW-1 (Claire Balloon) Datalogger.csv",
+    "expected_bytes": 26395683,
+    "sha256": "0ac3aea22953d78ecb6867e342d5ffd58cb1d14a6fc2391c0a77571fd581fdb6",
+    "local_path": "raw/2025-08-24_logger.csv"
+  },
+  {
+    "flight_id": "2026-03-28",
+    "flight_date": "2026-03-28",
+    "drive_id": "1zORjJ2qWglHbgkOLsGUWW2ePywYg-Ww2",
+    "source_url": "https://drive.google.com/file/d/1zORjJ2qWglHbgkOLsGUWW2ePywYg-Ww2/view",
+    "original_name": "DataLogger.csv",
+    "expected_bytes": 7660004,
+    "sha256": "d416bc4330d8709cbbe0f783384e019d10e5dc5fcf01c7c66611abf0c3cef6ed",
+    "local_path": "raw/2026-03-28_logger.csv"
+  },
+  {
+    "flight_id": "2026-05-31",
+    "flight_date": "2026-05-31",
+    "drive_id": "1_RpQ_sl-rUlJRHE_lczToNzfymI-nL9P",
+    "source_url": "https://drive.google.com/file/d/1_RpQ_sl-rUlJRHE_lczToNzfymI-nL9P/view",
+    "original_name": "AHD011.csv",
+    "expected_bytes": 15552214,
+    "sha256": "d8da8ac3ef962ea461072154f03b479fcceac7ef6e60865909317d3825dccc9d",
+    "local_path": "raw/2026-05-31_logger.csv"
+  },
+  {
+    "flight_id": "2026-08-21",
+    "flight_date": "2026-08-21",
+    "drive_id": "1IKMjB1171Petl8lOjhTdo0DHthfmtzCJ",
+    "source_url": "https://drive.google.com/file/d/1IKMjB1171Petl8lOjhTdo0DHthfmtzCJ/view",
+    "original_name": "dataloggerAHD000-flight.csv",
+    "expected_bytes": 5059309,
+    "sha256": "c6a44aa5b3ec53b4994388c9770187b453745eb855dd7d0b6ec2472d464c9bdb",
+    "local_path": "raw/2026-08-21_logger.csv"
+  }
+]

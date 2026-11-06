@@ -1,0 +1,140 @@
+{
+  "status": "FROZEN_SCREENED_CANDIDATES_NOT_VERIFIED_TRAINING_DATA",
+  "run_training": false,
+  "source_kind": "real_hera",
+  "independent_flight_groups": [
+    "2025-07-20",
+    "2025-08-24",
+    "2026-03-28",
+    "2026-05-31",
+    "2026-08-21"
+  ],
+  "targets": [
+    "Rate_CW12_cps",
+    "Rate_CW123_cps"
+  ],
+  "channels": "fit separately; do not assume inclusive or independent physical populations",
+  "primary_predictors": [
+    "Altitude[m]",
+    "Pressure[Pa]"
+  ],
+  "secondary_predictors": [
+    "Box_Temperature[C]",
+    "Latitude",
+    "Longitude",
+    "sensor_only_vertical_speed",
+    "sensor_only_log_pressure",
+    "sensor_only_pressure_change"
+  ],
+  "excluded_predictors": [
+    "flight_id",
+    "source_row",
+    "event_counts",
+    "other_channel_rate",
+    "elapsed_flight_time",
+    "battery",
+    "magnetic_field",
+    "acceleration",
+    "box_temperature_density_proxy"
+  ],
+  "feature_engineering_scope": "offline completed sensor trajectory only; do not bridge excluded intervals",
+  "outer_validation": "leave one complete flight out; both phases and channels stay in the same fold",
+  "inner_validation": "leave one outer-training flight out; outer test never used for tuning or feature selection",
+  "seeds": [
+    11,
+    42,
+    73
+  ],
+  "metrics": [
+    "r2",
+    "mse_cps2",
+    "rmse_cps",
+    "mae_cps"
+  ],
+  "tuning_selection_metric": "mean inner-held-out-flight RMSE, separately per target channel",
+  "xgboost_objective": "reg:squarederror",
+  "prediction_policy": "clip negative raw predictions to zero; SHAP explains raw predictions",
+  "base_parameters": {
+    "n_estimators": 180,
+    "learning_rate": 0.05,
+    "max_depth": 3,
+    "min_child_weight": 5,
+    "subsample": 0.85,
+    "colsample_bytree": 0.9,
+    "gamma": 0,
+    "reg_alpha": 0,
+    "reg_lambda": 1
+  },
+  "tuning_search_seed": 2026,
+  "tuning_random_candidates": 24,
+  "tuning_space": {
+    "n_estimators": [
+      100,
+      180,
+      300,
+      450
+    ],
+    "learning_rate": [
+      0.025,
+      0.05,
+      0.09
+    ],
+    "max_depth": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "min_child_weight": [
+      3,
+      8,
+      20
+    ],
+    "subsample": [
+      0.7,
+      0.85,
+      1.0
+    ],
+    "colsample_bytree": [
+      0.75,
+      0.9,
+      1.0
+    ],
+    "gamma": [
+      0,
+      0.1,
+      0.5
+    ],
+    "reg_alpha": [
+      0,
+      0.1,
+      1.0
+    ],
+    "reg_lambda": [
+      1.0,
+      5.0,
+      15.0
+    ]
+  },
+  "sample_weights": "each training flight has equal total weight",
+  "aggregation": "average seeds within flight, then give each flight equal weight; report per-flight and altitude-overlap errors",
+  "reference_models": [
+    "training_flight_balanced_constant_mean",
+    "altitude_only_xgboost",
+    "pressure_only_xgboost",
+    "altitude_pressure_xgboost",
+    "restricted_sensor_xgboost",
+    "restricted_sensor_tuned_xgboost"
+  ],
+  "uncertainty": "seeds are not independent flights; no confidence claim from only five flights",
+  "explainability": "SHAP on outer-test predictions after fitting; never use test SHAP to select features",
+  "peak_evaluation": "requires supported rise and fall per phase; incomplete altitude profiles remain unresolved",
+  "minimum_30_bins_each_flight_pass": true,
+  "remaining_limits": [
+    "per-flight hardware, thresholds, coincidence logic and orientation not fully documented",
+    "elapsed timer scale/wrap inferred; no independent UTC clock calibration",
+    "detector live time unavailable; targets are uncorrected recorded rates",
+    "same-row sensor snapshots need not be perfectly contemporaneous",
+    "no external tracking was supplied for August 21; top-board SD card damaged"
+  ]
+}

@@ -1,0 +1,11 @@
+test_equal_total_training_weight_for_unequal_flights (__main__.TrainingTests.test_equal_total_training_weight_for_unequal_flights) ... ok
+test_exact_restored_cohort_and_split_isolation (__main__.TrainingTests.test_exact_restored_cohort_and_split_isolation) ... ok
+test_native_saved_model_preserves_predictions (__main__.TrainingTests.test_native_saved_model_preserves_predictions) ... ok
+test_native_shap_reconstructs_raw_predictions (__main__.TrainingTests.test_native_shap_reconstructs_raw_predictions) ... ok
+test_no_counter_time_or_flight_identifier_features (__main__.TrainingTests.test_no_counter_time_or_flight_identifier_features) ... ok
+test_sensor_features_ignore_radiation_and_never_bridge_gap (__main__.TrainingTests.test_sensor_features_ignore_radiation_and_never_bridge_gap) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.054s
+
+OK

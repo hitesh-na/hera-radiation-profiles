@@ -1,0 +1,41 @@
+{
+  "status": "COMPLETED_EXPLORATORY_REAL_DATA_STUDY",
+  "training_performed": true,
+  "source_kind": "real_hera",
+  "training_verified": false,
+  "independent_flights": 5,
+  "distinct_30_second_intervals": 918,
+  "channels": [
+    "CW12",
+    "CW123"
+  ],
+  "variants_per_channel": 6,
+  "xgboost_variants_per_channel": 5,
+  "baseline_variants_per_channel": 1,
+  "outer_xgboost_models": 150,
+  "inner_tuning_fits": 2880,
+  "each_interval_outer_test_predictions_per_model_seed": 1,
+  "max_shap_additivity_error_cps": 1.52587890625e-05,
+  "max_saved_model_reload_error_cps": 0.0,
+  "negative_raw_predictions": 0,
+  "elapsed_seconds_here": 104.04068307300008,
+  "execution_environment_here_not_users_computer": {
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.3.5",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.8.0",
+      "xgboost-cpu": "2.1.4",
+      "matplotlib": "3.10.8"
+    }
+  },
+  "input_files_still_match": true,
+  "full_five_flight_production_model_fitted": false,
+  "limitations": [
+    "per-flight hardware, thresholds, coincidence logic and orientation not fully documented",
+    "elapsed timer scale/wrap inferred; no independent UTC clock calibration",
+    "detector live time unavailable; targets are uncorrected recorded rates",
+    "same-row sensor snapshots need not be perfectly contemporaneous",
+    "no external tracking was supplied for August 21; top-board SD card damaged"
+  ]
+}

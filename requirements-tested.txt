@@ -1,0 +1,11 @@
+# Direct dependency versions used for the included Python 3.12 CPU run.
+# xgboost-cpu==3.4.1 supplied the xgboost API in this environment.
+numpy==2.3.5
+pandas==2.2.3
+scipy==1.17.0
+scikit-learn==1.8.0
+matplotlib==3.10.8
+nbformat==5.10.4
+nbclient==0.10.2
+ipykernel==6.30.1
+xgboost==3.4.1

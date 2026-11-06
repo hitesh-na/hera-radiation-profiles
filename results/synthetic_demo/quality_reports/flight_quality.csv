@@ -1,0 +1,4 @@
+flight_id,input_rows,valid_rows,excluded_rows,altitude_min_m,altitude_max_m,largest_time_gap_s,zero_count_rows,counts_and_exposure_available,gps_zero_pair_rows
+SYNTHETIC_A,1557,1557,0,500.0,28500.0,5.0,0,True,0
+SYNTHETIC_B,1473,1473,0,500.0,27000.0,5.0,0,True,0
+SYNTHETIC_C,612,612,0,500.0,11500.0,5.0,0,True,0

@@ -1,0 +1,22 @@
+{
+  "source_kind": "real_hera",
+  "data_sha256": "REPLACE_WITH_SHA256_OF_EXACT_COMBINED_CSV",
+  "verified": {
+    "timestamp_seconds": false,
+    "altitude_m": false,
+    "pressure_pa": false,
+    "temperature_c": false,
+    "cps_valid": false,
+    "synchronization_reviewed": false,
+    "detector_config_reviewed": false
+  },
+  "source_files_and_hashes": [],
+  "timestamp_reference": "REQUIRED: origins, timezone, clock offsets and any resets",
+  "count_rate_method": "REQUIRED: counts, live-time or documented alternative",
+  "altitude_definition": "REQUIRED: GPS/geometric/barometric; calibration",
+  "acceleration_units": "REQUIRED or unavailable",
+  "magnetic_field_units_and_calibration": "REQUIRED or unavailable",
+  "detectors_by_flight": {},
+  "absolute_rate_comparability": "unestablished",
+  "notes": "Verification means conventions have been reviewed, not that absolute flux/dose calibration exists. Do not set flags merely to bypass checks."
+}

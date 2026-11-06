@@ -1,0 +1,31 @@
+test_cumulative_live_time_is_apportioned_at_boundaries (test_preprocessing.PreprocessingTests.test_cumulative_live_time_is_apportioned_at_boundaries) ... ok
+test_explicit_exposure_keeps_valid_zero_counts (test_preprocessing.PreprocessingTests.test_explicit_exposure_keeps_valid_zero_counts) ... ok
+test_impossible_or_reset_counter_rejected (test_preprocessing.PreprocessingTests.test_impossible_or_reset_counter_rejected) ... ok
+test_long_gap_is_not_a_zero_rate_measurement (test_preprocessing.PreprocessingTests.test_long_gap_is_not_a_zero_rate_measurement) ... ok
+test_no_double_count_at_edges (test_preprocessing.PreprocessingTests.test_no_double_count_at_edges) ... ok
+test_quality_rejects_inconsistent_cps (test_preprocessing.PreprocessingTests.test_quality_rejects_inconsistent_cps) ... ok
+test_raw_adapter_units_clocks_and_provenance (test_preprocessing.PreprocessingTests.test_raw_adapter_units_clocks_and_provenance) ... ok
+test_rtc_rollover_and_small_backward_reset (test_preprocessing.PreprocessingTests.test_rtc_rollover_and_small_backward_reset) ... ok
+test_time_tolerance_preserves_unmatched_rows (test_preprocessing.PreprocessingTests.test_time_tolerance_preserves_unmatched_rows) ... ok
+test_unknown_acquisition_refused (test_preprocessing.PreprocessingTests.test_unknown_acquisition_refused) ... ok
+test_unverified_raw_manifest_refused (test_preprocessing.PreprocessingTests.test_unverified_raw_manifest_refused) ... ok
+test_aggregation_uses_total_exposure_not_mean_of_rates (test_profiles_peaks.ProfileTests.test_aggregation_uses_total_exposure_not_mean_of_rates) ... ok
+test_bracketed_peak_identified (test_profiles_peaks.ProfileTests.test_bracketed_peak_identified) ... ok
+test_flat_is_unresolved (test_profiles_peaks.ProfileTests.test_flat_is_unresolved) ... ok
+test_gaps_are_not_filled_or_bridged (test_profiles_peaks.ProfileTests.test_gaps_are_not_filled_or_bridged) ... ok
+test_monotone_is_edge_limited (test_profiles_peaks.ProfileTests.test_monotone_is_edge_limited) ... ok
+test_no_peak_error_when_either_unresolved (test_profiles_peaks.ProfileTests.test_no_peak_error_when_either_unresolved) ... ok
+test_two_prominent_peaks_are_ambiguous (test_profiles_peaks.ProfileTests.test_two_prominent_peaks_are_ambiguous) ... ok
+test_zero_counts_have_nonzero_upper_interval (test_profiles_peaks.ProfileTests.test_zero_counts_have_nonzero_upper_interval) ... ok
+test_feature_allowlist_has_no_target_or_exposure (test_validation.ValidationTests.test_feature_allowlist_has_no_target_or_exposure) ... ok
+test_inner_outer_groups_disjoint_and_all_tested_once (test_validation.ValidationTests.test_inner_outer_groups_disjoint_and_all_tested_once) ... ok
+test_model_roundtrip (test_validation.ValidationTests.test_model_roundtrip) ... ok
+test_other_flight_cannot_change_derivatives (test_validation.ValidationTests.test_other_flight_cannot_change_derivatives) ... ok
+test_real_run_requires_verified_metadata (test_validation.ValidationTests.test_real_run_requires_verified_metadata) ... ok
+test_synthetic_mode_rejects_unlabeled_real_table (test_validation.ValidationTests.test_synthetic_mode_rejects_unlabeled_real_table) ... ok
+test_tuning_independent_of_outer_target (test_validation.ValidationTests.test_tuning_independent_of_outer_target) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 0.332s
+
+OK

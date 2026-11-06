@@ -1,0 +1,27 @@
+{
+  "source_kind": "synthetic",
+  "seed": 12026,
+  "flights": [
+    {
+      "flight_id": "SYNTHETIC_A",
+      "generating_peak_altitude_m": 15800,
+      "top_altitude_m": 28500,
+      "expected_coverage": "bracketed",
+      "note": "Generator truth is for software checks only and is never a predictor."
+    },
+    {
+      "flight_id": "SYNTHETIC_B",
+      "generating_peak_altitude_m": 16150,
+      "top_altitude_m": 27000,
+      "expected_coverage": "bracketed",
+      "note": "Generator truth is for software checks only and is never a predictor."
+    },
+    {
+      "flight_id": "SYNTHETIC_C",
+      "generating_peak_altitude_m": 16500,
+      "top_altitude_m": 11500,
+      "expected_coverage": "edge_limited",
+      "note": "Generator truth is for software checks only and is never a predictor."
+    }
+  ]
+}

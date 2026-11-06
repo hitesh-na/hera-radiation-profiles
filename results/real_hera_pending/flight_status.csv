@@ -1,0 +1,4 @@
+flight_id,measured_coverage,measured_peak_status,predicted_peak_status,heldout_rmse_cps,notes
+2026-03-28,pending,pending,pending,,Raw detector and environmental measurements not supplied
+2025-10-04,pending,pending,pending,,Raw detector and environmental measurements not supplied
+2025-06-01,pending,pending,pending,,Raw detector and environmental measurements not supplied

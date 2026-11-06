@@ -1,0 +1,163 @@
+{
+  "source_kind": "real_hera",
+  "verified": false,
+  "time_bin_s": 5,
+  "match_tolerance_s": 2.5,
+  "flights": [
+    {
+      "flight_id": "2026-03-28",
+      "verified": false,
+      "detector_id": "UNKNOWN_CONFIRM_ORIGINAL_HARDWARE",
+      "cosmicwatch": {
+        "path": "../data/raw/2026-03-28/TopScint.txt",
+        "delimiter": null,
+        "comments": "#",
+        "skiprows": 0,
+        "event_id_column": 0,
+        "time_column": 1,
+        "time_unit": "s",
+        "deadtime_column": 5,
+        "deadtime_unit": "s",
+        "reference_origin_s": 0.0,
+        "offset_s": null,
+        "exposure_method": "cumulative_linear",
+        "exposure_path": null,
+        "continuous_acquisition_verified": false,
+        "max_counter_gap_s": null
+      },
+      "clue": {
+        "path": "../data/raw/2026-03-28/DataLogger.csv",
+        "clock": {
+          "mode": "numeric_wrapped",
+          "column": "Timer[S]",
+          "unit": "s",
+          "rollover_s": 4294.967296,
+          "reference_origin_s": 0.0,
+          "offset_s": null
+        },
+        "filter_equals": {},
+        "columns": {
+          "Altitude[m]": "Altitude[m]",
+          "Pressure[Pa]": "Pressure[Pa]",
+          "Latitude": "Latitude",
+          "Longitude": "Longitude",
+          "Box_Temperature[C]": "Temperature[C]"
+        },
+        "scales": {
+          "Altitude[m]": 1,
+          "Pressure[Pa]": 1,
+          "Box_Temperature[C]": 1
+        },
+        "vectors": {},
+        "note": "Original raw columns remain intact. Magnetic field and acceleration are excluded from the main model. Numeric wrap repair is corroborated by analysis code; clock offset, acquisition continuity and detector configuration are still unverified."
+      }
+    },
+    {
+      "flight_id": "2025-10-04",
+      "verified": false,
+      "detector_id": "UNKNOWN_CONFIRM_ORIGINAL_HARDWARE",
+      "cosmicwatch": {
+        "path": "../data/raw/2025-10-04_Claire/AxLab_M_011.txt",
+        "delimiter": null,
+        "comments": "#",
+        "skiprows": 0,
+        "event_id_column": 0,
+        "time_column": 1,
+        "time_unit": "s",
+        "deadtime_column": 5,
+        "deadtime_unit": "s",
+        "reference_origin_s": 0.0,
+        "offset_s": null,
+        "exposure_method": "cumulative_linear",
+        "exposure_path": null,
+        "continuous_acquisition_verified": false,
+        "max_counter_gap_s": null
+      },
+      "clue": {
+        "path": "../data/raw/2025-10-04_Claire/AHD009.csv",
+        "clock": {
+          "mode": "numeric_wrapped",
+          "column": "Timer[S]",
+          "unit": "s",
+          "rollover_s": 4294.967296,
+          "reference_origin_s": 0.0,
+          "offset_s": null
+        },
+        "filter_equals": {},
+        "columns": {
+          "Altitude[m]": "Altitude[m]",
+          "Pressure[Pa]": "Pressure[Pa]",
+          "Latitude": "Latitude",
+          "Longitude": "Longitude",
+          "Box_Temperature[C]": "Temperature[C]"
+        },
+        "scales": {
+          "Altitude[m]": 1,
+          "Pressure[Pa]": 1,
+          "Box_Temperature[C]": 1
+        },
+        "vectors": {},
+        "note": "Original raw columns remain intact. Magnetic field and acceleration are excluded from the main model. Numeric wrap repair is corroborated by analysis code; clock offset, acquisition continuity and detector configuration are still unverified."
+      }
+    },
+    {
+      "flight_id": "2025-06-01",
+      "verified": false,
+      "detector_id": "UNKNOWN_CONFIRM_ORIGINAL_HARDWARE",
+      "cosmicwatch": {
+        "path": "../data/raw/2025-06-01/Bravo_CW_Top.txt",
+        "delimiter": null,
+        "comments": "#",
+        "skiprows": 0,
+        "event_id_column": 0,
+        "time_column": 1,
+        "time_unit": "s",
+        "deadtime_column": 5,
+        "deadtime_unit": "s",
+        "reference_origin_s": 0.0,
+        "offset_s": null,
+        "exposure_method": "cumulative_linear",
+        "exposure_path": null,
+        "continuous_acquisition_verified": false,
+        "max_counter_gap_s": null
+      },
+      "clue": {
+        "path": "../data/raw/2025-06-01/Bravo_CW_Datalogger_Coincident.csv",
+        "clock": {
+          "mode": "numeric_wrapped",
+          "column": "Timer[S]",
+          "unit": "s",
+          "rollover_s": 4294.967296,
+          "reference_origin_s": 0.0,
+          "offset_s": null
+        },
+        "filter_equals": {},
+        "columns": {
+          "Altitude[m]": "Altitude[m]",
+          "Pressure[Pa]": "Pressure[Pa]",
+          "Latitude": "Latitude",
+          "Longitude": "Longitude",
+          "Box_Temperature[C]": "Temperature[C]"
+        },
+        "scales": {
+          "Altitude[m]": 1,
+          "Pressure[Pa]": 1,
+          "Box_Temperature[C]": 1
+        },
+        "vectors": {},
+        "note": "Original raw columns remain intact. Magnetic field and acceleration are excluded from the main model. Numeric wrap repair is corroborated by analysis code; clock offset, acquisition continuity and detector configuration are still unverified."
+      }
+    }
+  ],
+  "preparation_status": "REVIEWED_NOT_TRAINING_READY: detector units supported; professor confirmed inside-box logger temperature and uncalibrated magnetometers; timing/exposure/configuration remain unverified. Calibration deferred.",
+  "evidence_update": {
+    "date": "2026-10-14",
+    "source": "Professor reply pasted by user; Annafy notebooks and Emma CW-analysis code reviewed",
+    "calibration_status": "deferred",
+    "magnetic_field_status": "uncalibrated_excluded",
+    "acceleration_status": "units_unconfirmed_excluded",
+    "logger_temperature_location": "inside_box",
+    "meteor_aprs_temperature_location": "outside_box; only usable after payload/time matching",
+    "clock_period_source": "Emma calibration_methods.py uses 2**32/1e6 seconds; analysis-code corroboration, not exact flashed logger firmware"
+  }
+}

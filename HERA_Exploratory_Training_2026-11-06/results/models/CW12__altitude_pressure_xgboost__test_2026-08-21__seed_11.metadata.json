@@ -1,0 +1,24 @@
+{
+  "channel": "CW12",
+  "variant": "altitude_pressure_xgboost",
+  "outer_test_flight": "2026-08-21",
+  "seed": 11,
+  "train_flights": "2025-07-20|2025-08-24|2026-03-28|2026-05-31",
+  "features": [
+    "Altitude_m",
+    "Pressure_Pa"
+  ],
+  "parameters": {
+    "n_estimators": 180,
+    "learning_rate": 0.05,
+    "max_depth": 3,
+    "min_child_weight": 5,
+    "subsample": 0.85,
+    "colsample_bytree": 0.9,
+    "gamma": 0,
+    "reg_alpha": 0,
+    "reg_lambda": 1
+  },
+  "status": "EXPLORATORY_NOT_CALIBRATED_PHYSICAL_FLUX",
+  "negative_prediction_policy": "clip to zero; SHAP values explain raw output"
+}

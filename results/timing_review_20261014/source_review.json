@@ -1,0 +1,72 @@
+{
+  "review_date": "2026-10-14",
+  "github_commit": "666ec5f66503262fdc117be4d7f4da2b4eb1f55a",
+  "github_directory": "https://github.com/emma-shm/HERA-Research/tree/666ec5f66503262fdc117be4d7f4da2b4eb1f55a/CW-analysis",
+  "github_files": [
+    {
+      "name": "README.md",
+      "path": "CW-analysis/README.md",
+      "git_blob_sha": "78054633d619c5425884646f1706ec5aab5eec0a",
+      "size": 13398,
+      "url": "https://github.com/emma-shm/HERA-Research/blob/main/CW-analysis/README.md",
+      "sha256_local_text": "b3459282d021439cdfa77072036ae1d061eaac53ca52179180be31ee00f76db5",
+      "retrieved_git_blob_sha": "78054633d619c5425884646f1706ec5aab5eec0a",
+      "exact_git_blob_match": true
+    },
+    {
+      "name": "alignment_methods.py",
+      "path": "CW-analysis/alignment_methods.py",
+      "git_blob_sha": "7591477c5fd7df6ca4a10eda55db20633fcc96e7",
+      "size": 21646,
+      "url": "https://github.com/emma-shm/HERA-Research/blob/main/CW-analysis/alignment_methods.py",
+      "sha256_local_text": "7e945f274d34fe13b2ac0411b708019b8b443d184d15510ac27405aaf705c222",
+      "retrieved_git_blob_sha": "7591477c5fd7df6ca4a10eda55db20633fcc96e7",
+      "exact_git_blob_match": true
+    },
+    {
+      "name": "calibration_methods.py",
+      "path": "CW-analysis/calibration_methods.py",
+      "git_blob_sha": "b0109442793b1f351742190bbd0e6a613b7a0f43",
+      "size": 130558,
+      "url": "https://github.com/emma-shm/HERA-Research/blob/main/CW-analysis/calibration_methods.py",
+      "sha256_local_text": "8a12e1a719c701f6fd3986df565bebe27f4ee7cfe108079a58712dccc84f1b8c",
+      "retrieved_git_blob_sha": "b0109442793b1f351742190bbd0e6a613b7a0f43",
+      "exact_git_blob_match": true
+    }
+  ],
+  "drive_files": [
+    {
+      "id": "1YziJA3pybg_RJQ6wEDmbf9RwFCwvVV05",
+      "name": "cosmicwatch_rate_plots_colab.ipynb",
+      "bytes": 2590132,
+      "modified_utc": "2026-10-13T03:00:15.143Z",
+      "url": "https://drive.google.com/file/d/1YziJA3pybg_RJQ6wEDmbf9RwFCwvVV05/view?usp=drivesdk",
+      "sha256": "16b2c95a27da722618991124da1e77566355cac475c18b808d2f38ac5887e208"
+    },
+    {
+      "id": "1OSePT2TJPSAS2e-e8YcHwyvrcAS-VIVa",
+      "name": "cosmicwatch_rate_plots.ipynb",
+      "bytes": 37685,
+      "modified_utc": "2026-09-25T13:34:16.353Z",
+      "url": "https://drive.google.com/file/d/1OSePT2TJPSAS2e-e8YcHwyvrcAS-VIVa/view?usp=drivesdk",
+      "sha256": "639f3ac73fbe0fb31a9ded54970c492dfab25a2bc4ff00e5a8aa6ab168299de7"
+    },
+    {
+      "id": "1r3_SuaLRl6e4AK7Ou9lgtTjXD8f_Ozrd",
+      "name": "README.md",
+      "bytes": 6346,
+      "modified_utc": "2026-09-17T15:30:44.000Z",
+      "url": "https://drive.google.com/file/d/1r3_SuaLRl6e4AK7Ou9lgtTjXD8f_Ozrd/view?usp=drivesdk",
+      "sha256": "f5cee606da2db49b83f415f049788c13955e797a87abe4f274bfa0cec5a1cedd"
+    }
+  ],
+  "professor_clarifications": {
+    "source": "User-pasted professor reply, received 2026-10-14; no Slack read performed",
+    "detector_calibration": "defer",
+    "magnetometer": "uncalibrated; exclude main-model magnetic features",
+    "logger_temperature": "inside the box",
+    "meteor_aprs_temperature": "outside the box; flight/payload/time matching required",
+    "claire": "student with HAM radio licence",
+    "aprs": "ground-station reception can be intermittent; this does not resolve the onboard logger GPS gap"
+  }
+}

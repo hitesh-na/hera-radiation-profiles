@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pfotzer-xgb"
+version = "0.1.0"
+description = "Radiation Profiles & Pfotzer Peak Estimation, XGBoost-only research workflow"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26,<3", "pandas>=2.2,<3", "scipy>=1.13,<2", "scikit-learn>=1.5,<2", "xgboost>=2.1,<4", "matplotlib>=3.8,<4"]
+
+[tool.setuptools.packages.find]
+include = ["pfotzer_xgb*"]

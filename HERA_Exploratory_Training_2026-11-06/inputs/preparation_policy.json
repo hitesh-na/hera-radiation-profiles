@@ -1,0 +1,14 @@
+{
+  "bin_seconds": 30,
+  "wrap_period_seconds": 4294.967296,
+  "wrap_edge_tolerance_seconds": 60,
+  "max_recorded_event_gap_seconds": 60,
+  "max_environment_bracket_seconds": 30,
+  "max_gps_unchanged_seconds": 30,
+  "minimum_environment_coverage": 0.9,
+  "minimum_altitude_m": 1000,
+  "maximum_bin_altitude_spread_m": 3000,
+  "maximum_bin_vertical_speed_m_s": 100,
+  "phase_threshold_m_s": 0.5,
+  "minimum_bins_per_flight_for_protocol": 30
+}

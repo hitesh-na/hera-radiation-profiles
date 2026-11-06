@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Florini-STAR-Misc.ipynb",
+    "sha256": "57564e1894d7320b910ddff0f94a77cfc43c2a37ea95281c75dd955ac5137f4a",
+    "size_bytes": 2262174
+  },
+  {
+    "name": "Florini-STAR.ipynb",
+    "sha256": "f1ef36f46506735d130e1f30b0764fa793beb5c2b14413983d862f5d714e7c4c",
+    "size_bytes": 553490
+  },
+  {
+    "name": "HERA-Analysis.ipynb",
+    "sha256": "d932cf1c70239b45264b7132d99f6d069ef87e586f4cd117b063d8ee93071d9a",
+    "size_bytes": 28996
+  },
+  {
+    "name": "Pfotzer_XGBoost_Handoff_For_Another_AI.md",
+    "sha256": "43d9d29a052b622597d137ecd3cb27b39aac8e760aca112c0d3b7c0f56f30a6e",
+    "size_bytes": 28202
+  },
+  {
+    "name": "STAR Poster Florini(1).pdf",
+    "sha256": "9c683c9ebf2e1d830bfa29455896200710dcce30db573e689a8674adc8df2668",
+    "size_bytes": 918093
+  },
+  {
+    "name": "rateGroundPressure.ipynb",
+    "sha256": "3a20f248292219100c1aa90ea790219bf72027916c4cb8ef2e503e8cac5c13cf",
+    "size_bytes": 439716
+  }
+]

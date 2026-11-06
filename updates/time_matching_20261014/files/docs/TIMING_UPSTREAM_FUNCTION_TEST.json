@@ -1,0 +1,56 @@
+[
+  {
+    "source": "cosmicwatch_rate_plots.ipynb",
+    "planted_delay_s": 60.0,
+    "required_timestamp_offset_s": -60.0,
+    "returned_roll_shift_s": -60.000000000000014,
+    "upstream_applied_offset_s": 60.000000000000014,
+    "residual_after_upstream_s": 120.00000000000001,
+    "correlation": 1.0
+  },
+  {
+    "source": "cosmicwatch_rate_plots.ipynb",
+    "planted_delay_s": -40.0,
+    "required_timestamp_offset_s": 40.0,
+    "returned_roll_shift_s": 40.0,
+    "upstream_applied_offset_s": -40.0,
+    "residual_after_upstream_s": -80.0,
+    "correlation": 1.0
+  },
+  {
+    "source": "cosmicwatch_rate_plots.ipynb",
+    "planted_delay_s": 0.0,
+    "required_timestamp_offset_s": -0.0,
+    "returned_roll_shift_s": 0.0,
+    "upstream_applied_offset_s": -0.0,
+    "residual_after_upstream_s": 0.0,
+    "correlation": 1.0
+  },
+  {
+    "source": "cosmicwatch_rate_plots_colab.ipynb",
+    "planted_delay_s": 60.0,
+    "required_timestamp_offset_s": -60.0,
+    "returned_roll_shift_s": -60.000000000000014,
+    "upstream_applied_offset_s": 60.000000000000014,
+    "residual_after_upstream_s": 120.00000000000001,
+    "correlation": 1.0
+  },
+  {
+    "source": "cosmicwatch_rate_plots_colab.ipynb",
+    "planted_delay_s": -40.0,
+    "required_timestamp_offset_s": 40.0,
+    "returned_roll_shift_s": 40.0,
+    "upstream_applied_offset_s": -40.0,
+    "residual_after_upstream_s": -80.0,
+    "correlation": 1.0
+  },
+  {
+    "source": "cosmicwatch_rate_plots_colab.ipynb",
+    "planted_delay_s": 0.0,
+    "required_timestamp_offset_s": -0.0,
+    "returned_roll_shift_s": 0.0,
+    "upstream_applied_offset_s": -0.0,
+    "residual_after_upstream_s": 0.0,
+    "correlation": 1.0
+  }
+]

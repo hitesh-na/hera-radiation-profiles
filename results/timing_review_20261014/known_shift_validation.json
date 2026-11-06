@@ -1,0 +1,29 @@
+[
+  {
+    "planted_source_delay_s": 60.0,
+    "required_offset_s": -60.0,
+    "upstream_roll_shift_s": -60.0,
+    "upstream_applied_offset_s": 60.0,
+    "upstream_residual_s": 120.0,
+    "corrected_offset_s": -59.99098011742083,
+    "corrected_residual_s": 0.009019882579167415
+  },
+  {
+    "planted_source_delay_s": -40.0,
+    "required_offset_s": 40.0,
+    "upstream_roll_shift_s": 40.0,
+    "upstream_applied_offset_s": -40.0,
+    "upstream_residual_s": -80.0,
+    "corrected_offset_s": 39.99127449329527,
+    "corrected_residual_s": -0.008725506704728048
+  },
+  {
+    "planted_source_delay_s": 0.0,
+    "required_offset_s": -0.0,
+    "upstream_roll_shift_s": 0.0,
+    "upstream_applied_offset_s": -0.0,
+    "upstream_residual_s": 0.0,
+    "corrected_offset_s": 0.0,
+    "corrected_residual_s": 0.0
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "constant_rate_cps": 5.284646815461034,
+  "channel": "CW123",
+  "variant": "training_flight_balanced_constant_mean",
+  "outer_test_flight": "2025-08-24",
+  "seed": 11,
+  "train_flights": "2025-07-20|2026-03-28|2026-05-31|2026-08-21"
+}

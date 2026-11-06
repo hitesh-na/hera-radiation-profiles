@@ -1,0 +1,6 @@
+flight_id,logger_start_s,logger_end_s,accepted_rows,min_altitude_m,max_altitude_m,rule,training_ready
+2025-06-01,2.479492,9934.582032,191742,259.1,31854.1,basic_GPS_screen_and_no_accepted_reading_gap_above_30s,False
+2025-06-01,9978.917969,19169.382813,66341,0.8,12193.2,basic_GPS_screen_and_no_accepted_reading_gap_above_30s,False
+2025-10-04,2.838867,7200.014648,42217,205.7,15096.7,basic_GPS_screen_and_no_accepted_reading_gap_above_30s,False
+2025-10-04,9971.705077999999,14016.735351,33849,92.6,31454.5,basic_GPS_screen_and_no_accepted_reading_gap_above_30s,False
+2026-03-28,68.002929,20771.946289,43679,118.4,17530.9,basic_GPS_screen_and_no_accepted_reading_gap_above_30s,False

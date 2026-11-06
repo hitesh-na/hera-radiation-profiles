@@ -1,0 +1,158 @@
+[
+  {
+    "path": "pfotzer_xgb/features.py",
+    "had_original": true
+  },
+  {
+    "path": "pfotzer_xgb/experiments.py",
+    "had_original": true
+  },
+  {
+    "path": "pfotzer_xgb/preprocessing.py",
+    "had_original": true
+  },
+  {
+    "path": "pfotzer_xgb/quality.py",
+    "had_original": true
+  },
+  {
+    "path": "config/research.json",
+    "had_original": true
+  },
+  {
+    "path": "config/flights.real_unverified.json",
+    "had_original": true
+  },
+  {
+    "path": "pfotzer_xgb/time_alignment.py",
+    "had_original": false
+  },
+  {
+    "path": "scripts/review_time_matching.py",
+    "had_original": false
+  },
+  {
+    "path": "tests/test_time_alignment_review.py",
+    "had_original": false
+  },
+  {
+    "path": "docs/TIMING_SOURCE_REVIEW.json",
+    "had_original": false
+  },
+  {
+    "path": "docs/TIMING_REVIEW_NEXT_STEPS.md",
+    "had_original": false
+  },
+  {
+    "path": "docs/TIMING_TEST_RESULTS.txt",
+    "had_original": false
+  },
+  {
+    "path": "docs/TIMING_VALIDATION.json",
+    "had_original": false
+  },
+  {
+    "path": "results/timing_review_20261014/2025-06-01_review_bins_NOT_FOR_TRAINING.csv",
+    "had_original": false
+  },
+  {
+    "path": "results/timing_review_20261014/2025-06-01_timing_comparison.png",
+    "had_original": false
+  },
+  {
+    "path": "results/timing_review_20261014/2025-10-04_review_bins_NOT_FOR_TRAINING.csv",
+    "had_original": false
+  },
+  {
+    "path": "results/timing_review_20261014/2025-10-04_timing_comparison.png",
+    "had_original": false
+  },
+  {
+    "path": "results/timing_review_20261014/2026-03-28_review_bins_NOT_FOR_TRAINING.csv",
+    "had_original": false
+  },
+  {
+    "path": "results/timing_review_20261014/2026-03-28_timing_comparison.png",
+    "had_original": false
+  },
+  {
+    "path": "results/timing_review_20261014/alignment_candidates.csv",
+    "had_original": false
+  },
+  {
+    "path": "results/timing_review_20261014/checks/2025-06-01_diagnostics.png",
+    "had_original": false
+  },
+  {
+    "path": "results/timing_review_20261014/checks/2025-06-01_pressure_flags.csv",
+    "had_original": false
+  },
+  {
+    "path": "results/timing_review_20261014/checks/2025-06-01_timer_jumps.csv",
+    "had_original": false
+  },
+  {
+    "path": "results/timing_review_20261014/checks/2025-10-04_diagnostics.png",
+    "had_original": false
+  },
+  {
+    "path": "results/timing_review_20261014/checks/2025-10-04_pressure_flags.csv",
+    "had_original": false
+  },
+  {
+    "path": "results/timing_review_20261014/checks/2025-10-04_timer_jumps.csv",
+    "had_original": false
+  },
+  {
+    "path": "results/timing_review_20261014/checks/2026-03-28_diagnostics.png",
+    "had_original": false
+  },
+  {
+    "path": "results/timing_review_20261014/checks/2026-03-28_pressure_flags.csv",
+    "had_original": false
+  },
+  {
+    "path": "results/timing_review_20261014/checks/2026-03-28_timer_jumps.csv",
+    "had_original": false
+  },
+  {
+    "path": "results/timing_review_20261014/checks/raw_diagnostics_summary.json",
+    "had_original": false
+  },
+  {
+    "path": "results/timing_review_20261014/gps_supported_intervals.csv",
+    "had_original": false
+  },
+  {
+    "path": "results/timing_review_20261014/known_shift_validation.json",
+    "had_original": false
+  },
+  {
+    "path": "results/timing_review_20261014/report.html",
+    "had_original": false
+  },
+  {
+    "path": "results/timing_review_20261014/report.md",
+    "had_original": false
+  },
+  {
+    "path": "results/timing_review_20261014/source_review.json",
+    "had_original": false
+  },
+  {
+    "path": "results/timing_review_20261014/summary.json",
+    "had_original": false
+  },
+  {
+    "path": "docs/TIMING_UPSTREAM_FUNCTION_TEST.json",
+    "had_original": false
+  },
+  {
+    "path": "results/timing_review_20261014/HERA_Time_Matching_Review.pdf",
+    "had_original": false
+  },
+  {
+    "path": "docs/TIMING_INSTALLER_VALIDATION.json",
+    "had_original": false
+  }
+]

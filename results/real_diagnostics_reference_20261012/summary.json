@@ -1,0 +1,505 @@
+{
+  "status": "DIAGNOSTICS_COMPLETE_TRAINING_PENDING",
+  "verified": false,
+  "provenance": {
+    "generated_utc": "2026-10-12T04:46:09.247046+00:00",
+    "diagnostic_version": "1.0",
+    "script_sha256": "438a9f8962181afe05d71cb0e61150e3825e2ed4893b3aa0ac3133abbc417151",
+    "manifest_sha256": "3cb3621a9480ef43b30c77e7edbd9282dbdc78a91dbfb3720ca8db9f29d6d63c",
+    "inputs": [
+      {
+        "flight_id": "2025-06-01",
+        "kind": "detector",
+        "relative_path": "data/raw/2025-06-01/Bravo_CW_Top.txt",
+        "bytes": 11745447,
+        "sha256": "47fa9d985061388c4f2c22f3de21f31539886e975d44a53cb2fd2c2e2cbab1f1"
+      },
+      {
+        "flight_id": "2025-06-01",
+        "kind": "logger",
+        "relative_path": "data/raw/2025-06-01/Bravo_CW_Datalogger_Coincident.csv",
+        "bytes": 46239704,
+        "sha256": "5988894780a52adbada6c4f74da33c975bf6e338f79257212be42bd58aa07aa0"
+      },
+      {
+        "flight_id": "2025-10-04",
+        "kind": "detector",
+        "relative_path": "data/raw/2025-10-04_Claire/AxLab_M_011.txt",
+        "bytes": 12282828,
+        "sha256": "a835363819a16c5b915a7fd910f382285fbfc0b7bce91c9b4a4bf10196ac9497"
+      },
+      {
+        "flight_id": "2025-10-04",
+        "kind": "logger",
+        "relative_path": "data/raw/2025-10-04_Claire/AHD009.csv",
+        "bytes": 23091633,
+        "sha256": "325cf07444a6ef8179aeb31463366d9dc532abcbc4152c985ecd034874aa1b6d"
+      },
+      {
+        "flight_id": "2026-03-28",
+        "kind": "detector",
+        "relative_path": "data/raw/2026-03-28/TopScint.txt",
+        "bytes": 6095537,
+        "sha256": "136674a7af9e92541d8a0d025e3468f0a98af4e94cb07a02711f59afd1583972"
+      },
+      {
+        "flight_id": "2026-03-28",
+        "kind": "logger",
+        "relative_path": "data/raw/2026-03-28/DataLogger.csv",
+        "bytes": 7660004,
+        "sha256": "d416bc4330d8709cbbe0f783384e019d10e5dc5fcf01c7c66611abf0c3cef6ed"
+      }
+    ],
+    "versions": {
+      "python": "3.12.14",
+      "numpy": "2.3.5",
+      "pandas": "2.2.3",
+      "scipy": "1.17.0",
+      "matplotlib": "3.10.8"
+    }
+  },
+  "flights": [
+    {
+      "flight_id": "2025-06-01",
+      "scientifically_verified": false,
+      "event_rows": 232931,
+      "logger_rows": 259413,
+      "detector_duration_s": 19199.933168,
+      "logger_candidate_duration_s": 19168.567383,
+      "detector_event_id_nonunit_steps": 0,
+      "detector_largest_interevent_gap_s": 7.578301999999894,
+      "deadtime_decreases": 0,
+      "deadtime_increment_greater_than_elapsed": 0,
+      "negative_deadtime_values": 0,
+      "cumulative_deadtime_change_s": 48.005891,
+      "deadtime_fraction_if_interpretation_correct": 0.0025003155260982938,
+      "detector_coincidence_ones": 54390,
+      "detector_other_coincidence_values": 0,
+      "adc_at_or_above_header_limit": 0,
+      "adc_max_observed": 3699.0,
+      "detector_pressure_spike_flags": 123,
+      "candidate_timer_rollovers": 4,
+      "proposed_rollover_s": 4294.967296,
+      "rtc_backwards_steps_valid_date_pairs": 12552,
+      "invalid_or_old_date_rows": 10,
+      "date_transitions_with_valid_dates": [
+        {
+          "data_row_1based": 248016,
+          "date": "6/2/2025",
+          "displayed_time": "20:0:00.257"
+        }
+      ],
+      "logger_largest_candidate_gap_s": 3.8603520000015124,
+      "gps_basic_screen_rows": 258083,
+      "gps_basic_screen_max_altitude_m": 31854.1,
+      "largest_gap_between_accepted_gps_readings_s": 44.33593699999983,
+      "gps_gaps_above_30s": [
+        {
+          "start_candidate_logger_s": 9934.582032,
+          "end_candidate_logger_s": 9978.917969,
+          "duration_s": 44.33593699999983,
+          "last_accepted_altitude_m": 13819.3,
+          "next_accepted_altitude_m": 12193.2
+        }
+      ],
+      "logger_counters": {
+        "Events CW1": {
+          "first": 1.0,
+          "last": 172723.0,
+          "negative_steps": 0,
+          "steps_greater_than_one": 28525
+        },
+        "Events CW2": {
+          "first": 0.0,
+          "last": 178781.0,
+          "negative_steps": 0,
+          "steps_greater_than_one": 32436
+        },
+        "Event G1": {
+          "first": 0.0,
+          "last": 0.0,
+          "negative_steps": 0,
+          "steps_greater_than_one": 0
+        },
+        "Event G2": {
+          "first": 0.0,
+          "last": 0.0,
+          "negative_steps": 0,
+          "steps_greater_than_one": 0
+        }
+      },
+      "candidate_clock_alignment": {
+        "verified": false,
+        "pivot_detector_s": 6111.118603,
+        "pressure_minimum_detector_s": 9298.998713,
+        "parameter_order": [
+          "shift_at_pivot_s",
+          "relative_clock_ppm",
+          "pressure_gain",
+          "pressure_bias_pa"
+        ],
+        "equation_time": "t_logger = pivot + (1 + ppm/1e6)*(t_detector-pivot) + shift",
+        "equation_pressure": "P_logger(t_logger) ~= gain*P_detector(t_detector) + bias",
+        "fits": {
+          "joint": {
+            "parameters": [
+              -16.519327857877276,
+              -1792.46295183519,
+              1.0016895370541676,
+              -127.40294932867405
+            ],
+            "success": true,
+            "at_parameter_bounds": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "n_pressure_samples": 1371,
+            "detector_time_range_s": [
+              3355.5859955,
+              11074.364464
+            ],
+            "median_absolute_pressure_residual_pa": 6.567342913731408,
+            "p95_absolute_pressure_residual_pa": 30.872087599902446,
+            "largest_logger_interpolation_gap_s": 4.857421999999133,
+            "out_of_logger_time_support": 0
+          },
+          "before_pressure_minimum": {
+            "parameters": [
+              -13.914574097608844,
+              -1090.7198813783011,
+              1.0011677055585313,
+              -142.61056081666445
+            ],
+            "success": true,
+            "at_parameter_bounds": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "n_pressure_samples": 995,
+            "detector_time_range_s": [
+              3355.5859955,
+              7347.201802
+            ],
+            "median_absolute_pressure_residual_pa": 4.109926014854864,
+            "p95_absolute_pressure_residual_pa": 23.428890334921014,
+            "largest_logger_interpolation_gap_s": 4.363769500000217,
+            "out_of_logger_time_support": 0
+          },
+          "after_pressure_minimum": {
+            "parameters": [
+              -18.835150469868097,
+              -976.7650078735228,
+              1.0038751333776585,
+              -145.6541789148393
+            ],
+            "success": true,
+            "at_parameter_bounds": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "n_pressure_samples": 376,
+            "detector_time_range_s": [
+              9555.045392,
+              11074.364464
+            ],
+            "median_absolute_pressure_residual_pa": 6.284607343837251,
+            "p95_absolute_pressure_residual_pa": 20.464726210883782,
+            "largest_logger_interpolation_gap_s": 4.857421999999133,
+            "out_of_logger_time_support": 0
+          }
+        },
+        "note": "Sensor-only fit; residual Pa is NOT timing accuracy or a confidence interval."
+      }
+    },
+    {
+      "flight_id": "2025-10-04",
+      "scientifically_verified": false,
+      "event_rows": 244351,
+      "logger_rows": 131929,
+      "detector_duration_s": 14066.060532,
+      "logger_candidate_duration_s": 14015.398437,
+      "detector_event_id_nonunit_steps": 0,
+      "detector_largest_interevent_gap_s": 7.296411999999691,
+      "deadtime_decreases": 0,
+      "deadtime_increment_greater_than_elapsed": 0,
+      "negative_deadtime_values": 0,
+      "cumulative_deadtime_change_s": 49.295570999999995,
+      "deadtime_fraction_if_interpretation_correct": 0.0035045754913291876,
+      "detector_coincidence_ones": 0,
+      "detector_other_coincidence_values": 0,
+      "adc_at_or_above_header_limit": 0,
+      "adc_max_observed": 3691.0,
+      "detector_pressure_spike_flags": 215,
+      "candidate_timer_rollovers": 3,
+      "proposed_rollover_s": 4294.967296,
+      "rtc_backwards_steps_valid_date_pairs": 8525,
+      "invalid_or_old_date_rows": 2,
+      "date_transitions_with_valid_dates": [],
+      "logger_largest_candidate_gap_s": 6.617186999999831,
+      "gps_basic_screen_rows": 76066,
+      "gps_basic_screen_max_altitude_m": 31454.5,
+      "largest_gap_between_accepted_gps_readings_s": 2771.6904299999987,
+      "gps_gaps_above_30s": [
+        {
+          "start_candidate_logger_s": 7200.014648,
+          "end_candidate_logger_s": 9971.705077999999,
+          "duration_s": 2771.6904299999987,
+          "last_accepted_altitude_m": 15096.7,
+          "next_accepted_altitude_m": 31424.1
+        }
+      ],
+      "logger_counters": {
+        "Events CW1": {
+          "first": 1.0,
+          "last": 137321.0,
+          "negative_steps": 0,
+          "steps_greater_than_one": 3247
+        },
+        "Events CW2": {
+          "first": 0.0,
+          "last": 4876.0,
+          "negative_steps": 0,
+          "steps_greater_than_one": 21
+        },
+        "Event G1": {
+          "first": 0.0,
+          "last": 1.0,
+          "negative_steps": 0,
+          "steps_greater_than_one": 0
+        },
+        "Event G2": {
+          "first": 0.0,
+          "last": 0.0,
+          "negative_steps": 0,
+          "steps_greater_than_one": 0
+        }
+      },
+      "candidate_clock_alignment": {
+        "verified": false,
+        "pivot_detector_s": 7411.03803,
+        "pressure_minimum_detector_s": 10012.936001,
+        "parameter_order": [
+          "shift_at_pivot_s",
+          "relative_clock_ppm",
+          "pressure_gain",
+          "pressure_bias_pa"
+        ],
+        "equation_time": "t_logger = pivot + (1 + ppm/1e6)*(t_detector-pivot) + shift",
+        "equation_pressure": "P_logger(t_logger) ~= gain*P_detector(t_detector) + bias",
+        "fits": {
+          "joint": {
+            "parameters": [
+              -35.47920349809755,
+              -4130.286460133327,
+              1.0014553832366377,
+              -158.84799065289093
+            ],
+            "success": true,
+            "at_parameter_bounds": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "n_pressure_samples": 1445,
+            "detector_time_range_s": [
+              4496.78124,
+              12356.974451999999
+            ],
+            "median_absolute_pressure_residual_pa": 8.61047541249718,
+            "p95_absolute_pressure_residual_pa": 26.933335381210775,
+            "largest_logger_interpolation_gap_s": 7.261719000000085,
+            "out_of_logger_time_support": 0
+          },
+          "before_pressure_minimum": {
+            "parameters": [
+              -33.261494564109015,
+              -3966.963321585547,
+              1.0002564217818433,
+              -162.33274303868444
+            ],
+            "success": true,
+            "at_parameter_bounds": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "n_pressure_samples": 939,
+            "detector_time_range_s": [
+              4496.78124,
+              9163.324017
+            ],
+            "median_absolute_pressure_residual_pa": 5.532533836239963,
+            "p95_absolute_pressure_residual_pa": 24.606142758001063,
+            "largest_logger_interpolation_gap_s": 7.070800499999677,
+            "out_of_logger_time_support": 0
+          },
+          "after_pressure_minimum": {
+            "parameters": [
+              -34.14406068657382,
+              -4224.724055778885,
+              1.0023460807594213,
+              -157.19934151725317
+            ],
+            "success": true,
+            "at_parameter_bounds": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "n_pressure_samples": 506,
+            "detector_time_range_s": [
+              10327.1713435,
+              12356.974451999999
+            ],
+            "median_absolute_pressure_residual_pa": 4.731174773417479,
+            "p95_absolute_pressure_residual_pa": 14.200244195924824,
+            "largest_logger_interpolation_gap_s": 7.261719000000085,
+            "out_of_logger_time_support": 0
+          }
+        },
+        "note": "Sensor-only fit; residual Pa is NOT timing accuracy or a confidence interval."
+      }
+    },
+    {
+      "flight_id": "2026-03-28",
+      "scientifically_verified": false,
+      "event_rows": 120808,
+      "logger_rows": 43713,
+      "detector_duration_s": 20808.207949,
+      "logger_candidate_duration_s": 20725.254882999998,
+      "detector_event_id_nonunit_steps": 0,
+      "detector_largest_interevent_gap_s": 5.845744999999624,
+      "deadtime_decreases": 0,
+      "deadtime_increment_greater_than_elapsed": 0,
+      "negative_deadtime_values": 0,
+      "cumulative_deadtime_change_s": 30.092928,
+      "deadtime_fraction_if_interpretation_correct": 0.0014462046935399934,
+      "detector_coincidence_ones": 0,
+      "detector_other_coincidence_values": 0,
+      "adc_at_or_above_header_limit": 0,
+      "adc_max_observed": 3667.0,
+      "detector_pressure_spike_flags": 0,
+      "candidate_timer_rollovers": 4,
+      "proposed_rollover_s": 4294.967296,
+      "rtc_backwards_steps_valid_date_pairs": 1731,
+      "invalid_or_old_date_rows": 0,
+      "date_transitions_with_valid_dates": [],
+      "logger_largest_candidate_gap_s": 29.079102000001512,
+      "gps_basic_screen_rows": 43679,
+      "gps_basic_screen_max_altitude_m": 17530.9,
+      "largest_gap_between_accepted_gps_readings_s": 29.079102000001512,
+      "gps_gaps_above_30s": [],
+      "logger_counters": {
+        "Events CW1&2": {
+          "first": 1.0,
+          "last": 25643.0,
+          "negative_steps": 0,
+          "steps_greater_than_one": 0
+        },
+        "Events CW1&2&3": {
+          "first": 0.0,
+          "last": 18070.0,
+          "negative_steps": 0,
+          "steps_greater_than_one": 0
+        }
+      },
+      "candidate_clock_alignment": {
+        "verified": false,
+        "pivot_detector_s": 3758.882509,
+        "pressure_minimum_detector_s": 4253.060719,
+        "parameter_order": [
+          "shift_at_pivot_s",
+          "relative_clock_ppm",
+          "pressure_gain",
+          "pressure_bias_pa"
+        ],
+        "equation_time": "t_logger = pivot + (1 + ppm/1e6)*(t_detector-pivot) + shift",
+        "equation_pressure": "P_logger(t_logger) ~= gain*P_detector(t_detector) + bias",
+        "fits": {
+          "joint": {
+            "parameters": [
+              -10.655073727147492,
+              -2794.301796157925,
+              0.9971965514262361,
+              46.334194023619794
+            ],
+            "success": true,
+            "at_parameter_bounds": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "n_pressure_samples": 825,
+            "detector_time_range_s": [
+              2095.7473785,
+              5421.0052455000005
+            ],
+            "median_absolute_pressure_residual_pa": 15.800517160481832,
+            "p95_absolute_pressure_residual_pa": 42.91188718356497,
+            "largest_logger_interpolation_gap_s": 13.46630899999991,
+            "out_of_logger_time_support": 0
+          },
+          "before_pressure_minimum": {
+            "parameters": [
+              -12.46851748110199,
+              -4539.467441793369,
+              0.9953931690027448,
+              127.95877030078499
+            ],
+            "success": true,
+            "at_parameter_bounds": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "n_pressure_samples": 536,
+            "detector_time_range_s": [
+              2095.7473785,
+              4250.973035
+            ],
+            "median_absolute_pressure_residual_pa": 8.83944296966547,
+            "p95_absolute_pressure_residual_pa": 27.818294178770888,
+            "largest_logger_interpolation_gap_s": 13.46630899999991,
+            "out_of_logger_time_support": 0
+          },
+          "after_pressure_minimum": {
+            "parameters": [
+              -5.575740207050565,
+              -5559.514426379562,
+              0.9968958915765308,
+              184.100394889023
+            ],
+            "success": true,
+            "at_parameter_bounds": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "n_pressure_samples": 289,
+            "detector_time_range_s": [
+              4255.2238865,
+              5421.0052455000005
+            ],
+            "median_absolute_pressure_residual_pa": 9.599847412799136,
+            "p95_absolute_pressure_residual_pa": 32.593715530243934,
+            "largest_logger_interpolation_gap_s": 10.197753999999804,
+            "out_of_logger_time_support": 0
+          }
+        },
+        "note": "Sensor-only fit; residual Pa is NOT timing accuracy or a confidence interval."
+      }
+    }
+  ]
+}

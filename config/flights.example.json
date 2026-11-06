@@ -1,0 +1,242 @@
+{
+  "source_kind": "real_hera",
+  "verified": false,
+  "time_bin_s": 5,
+  "match_tolerance_s": 2.5,
+  "flights": [
+    {
+      "flight_id": "2026-03-28",
+      "verified": false,
+      "detector_id": "UNKNOWN_CONFIRM_ORIGINAL_HARDWARE",
+      "cosmicwatch": {
+        "path": "../data/raw/2026-03-28/TopScint.txt",
+        "delimiter": null,
+        "comments": "#",
+        "skiprows": 0,
+        "event_id_column": 0,
+        "time_column": 1,
+        "time_unit": null,
+        "deadtime_column": null,
+        "deadtime_unit": null,
+        "reference_origin_s": null,
+        "offset_s": null,
+        "exposure_method": "cumulative_linear",
+        "exposure_path": null,
+        "continuous_acquisition_verified": false,
+        "max_counter_gap_s": null
+      },
+      "clue": {
+        "path": "../data/raw/2026-03-28/Mar28-26-DataLogger.csv",
+        "clock": {
+          "mode": "date_rtc",
+          "date_column": "Date[MM/DD/YYYY]",
+          "date_format": "%m/%d/%Y",
+          "time_column": "RTC[H:M:S EST]",
+          "timezone": null,
+          "reference_origin_s": null,
+          "offset_s": null
+        },
+        "filter_equals": {},
+        "columns": {
+          "Altitude[m]": "Altitude[m]",
+          "Pressure[Pa]": "Pressure[Pa]",
+          "Temperature[C]": "Temperature[C]",
+          "Latitude": "Latitude",
+          "Longitude": "Longitude"
+        },
+        "scales": {
+          "Altitude[m]": 1,
+          "Pressure[Pa]": 1,
+          "Temperature[C]": 1
+        },
+        "vectors": {
+          "Accel": {
+            "columns": [
+              "Accel x",
+              "Accel y",
+              "Accel z"
+            ],
+            "offsets": [
+              0,
+              0,
+              0
+            ],
+            "scale": null,
+            "units": null
+          },
+          "Mag": {
+            "columns": [
+              "Mag x",
+              "Mag y",
+              "Mag z"
+            ],
+            "offsets": [
+              0,
+              0,
+              0
+            ],
+            "scale": null,
+            "units": null
+          }
+        },
+        "note": "Field names are notebook-derived hints only. Confirm units, clock behavior and calibration against original files."
+      }
+    },
+    {
+      "flight_id": "2025-10-04",
+      "verified": false,
+      "detector_id": "UNKNOWN_CONFIRM_ORIGINAL_HARDWARE",
+      "cosmicwatch": {
+        "path": "../data/raw/2025-10-04/AxLab_M_011.txt",
+        "delimiter": null,
+        "comments": "#",
+        "skiprows": 0,
+        "event_id_column": 0,
+        "time_column": 1,
+        "time_unit": null,
+        "deadtime_column": null,
+        "deadtime_unit": null,
+        "reference_origin_s": null,
+        "offset_s": null,
+        "exposure_method": "cumulative_linear",
+        "exposure_path": null,
+        "continuous_acquisition_verified": false,
+        "max_counter_gap_s": null
+      },
+      "clue": {
+        "path": "../data/raw/2025-10-04/AHD009.csv",
+        "clock": {
+          "mode": "date_rtc",
+          "date_column": "Date[MM/DD/YYYY]",
+          "date_format": "%m/%d/%Y",
+          "time_column": "RTC[H:M:S EST]",
+          "timezone": null,
+          "reference_origin_s": null,
+          "offset_s": null
+        },
+        "filter_equals": {},
+        "columns": {
+          "Altitude[m]": "Altitude[m]",
+          "Pressure[Pa]": "Pressure[Pa]",
+          "Temperature[C]": "Temperature[C]",
+          "Latitude": "Latitude",
+          "Longitude": "Longitude"
+        },
+        "scales": {
+          "Altitude[m]": 1,
+          "Pressure[Pa]": 1,
+          "Temperature[C]": 1
+        },
+        "vectors": {
+          "Accel": {
+            "columns": [
+              "Accel x",
+              "Accel y",
+              "Accel z"
+            ],
+            "offsets": [
+              0,
+              0,
+              0
+            ],
+            "scale": null,
+            "units": null
+          },
+          "Mag": {
+            "columns": [
+              "Mag x",
+              "Mag y",
+              "Mag z"
+            ],
+            "offsets": [
+              0,
+              0,
+              0
+            ],
+            "scale": null,
+            "units": null
+          }
+        },
+        "note": "Field names are notebook-derived hints only. Confirm units, clock behavior and calibration against original files."
+      }
+    },
+    {
+      "flight_id": "2025-06-01",
+      "verified": false,
+      "detector_id": "UNKNOWN_CONFIRM_ORIGINAL_HARDWARE",
+      "cosmicwatch": {
+        "path": "../data/raw/2025-06-01/Bravo CW Top(1).txt",
+        "delimiter": null,
+        "comments": "#",
+        "skiprows": 0,
+        "event_id_column": 0,
+        "time_column": 1,
+        "time_unit": null,
+        "deadtime_column": null,
+        "deadtime_unit": null,
+        "reference_origin_s": null,
+        "offset_s": null,
+        "exposure_method": "cumulative_linear",
+        "exposure_path": null,
+        "continuous_acquisition_verified": false,
+        "max_counter_gap_s": null
+      },
+      "clue": {
+        "path": "../data/raw/2025-06-01/Bravo CW Datalogger Coincident.csv",
+        "clock": {
+          "mode": "date_rtc",
+          "date_column": "Date[MM/DD/YYYY]",
+          "date_format": "%m/%d/%Y",
+          "time_column": "RTC[H:M:S EST]",
+          "timezone": null,
+          "reference_origin_s": null,
+          "offset_s": null
+        },
+        "filter_equals": {},
+        "columns": {
+          "Altitude[m]": "Altitude[m]",
+          "Pressure[Pa]": "Pressure[Pa]",
+          "Temperature[C]": "Temperature[C]",
+          "Latitude": "Latitude",
+          "Longitude": "Longitude"
+        },
+        "scales": {
+          "Altitude[m]": 1,
+          "Pressure[Pa]": 1,
+          "Temperature[C]": 1
+        },
+        "vectors": {
+          "Accel": {
+            "columns": [
+              "Accel x",
+              "Accel y",
+              "Accel z"
+            ],
+            "offsets": [
+              0,
+              0,
+              0
+            ],
+            "scale": null,
+            "units": null
+          },
+          "Mag": {
+            "columns": [
+              "Mag x",
+              "Mag y",
+              "Mag z"
+            ],
+            "offsets": [
+              0,
+              0,
+              0
+            ],
+            "scale": null,
+            "units": null
+          }
+        },
+        "note": "Field names are notebook-derived hints only. Confirm units, clock behavior and calibration against original files."
+      }
+    }
+  ]
+}

@@ -1,0 +1,441 @@
+{
+  "source_kind": "synthetic",
+  "models_checked": 54,
+  "checks": [
+    {
+      "flight_id": "SYNTHETIC_A",
+      "seed": 11,
+      "variant": "altitude_only",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.1444091796875e-05,
+      "model_sha256": "9a2064f5d4d3f962434e0ac9c8f58845b1d0e0c7ff3401d6f3fe269455bc0179"
+    },
+    {
+      "flight_id": "SYNTHETIC_A",
+      "seed": 42,
+      "variant": "altitude_only",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.52587890625e-05,
+      "model_sha256": "942d89959d2c17ac56611845aa4253ceb55aa66d54e8f7f07ad67095d07e8465"
+    },
+    {
+      "flight_id": "SYNTHETIC_A",
+      "seed": 73,
+      "variant": "altitude_only",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.52587890625e-05,
+      "model_sha256": "b30fb789e5f6d3f1741741ae9f65672da9754d0b1095916f5673a4339b9c9dcb"
+    },
+    {
+      "flight_id": "SYNTHETIC_A",
+      "seed": 11,
+      "variant": "altitude_pressure",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.52587890625e-05,
+      "model_sha256": "81625474fe0c9431a165be72bd25d6172dd82dd5d52f9dee151145a8beff7360"
+    },
+    {
+      "flight_id": "SYNTHETIC_A",
+      "seed": 42,
+      "variant": "altitude_pressure",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.1444091796875e-05,
+      "model_sha256": "e69185d77b579007c928c7bcfab511a402647fe0ebf8deca2034e80429cf8a72"
+    },
+    {
+      "flight_id": "SYNTHETIC_A",
+      "seed": 73,
+      "variant": "altitude_pressure",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.33514404296875e-05,
+      "model_sha256": "9226dec53df268a76463a9413e956e60d53896163cba3d5bddbc603e084a1152"
+    },
+    {
+      "flight_id": "SYNTHETIC_A",
+      "seed": 11,
+      "variant": "baseline",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.9073486328125e-05,
+      "model_sha256": "83d704c9a2bb702ebd8148b9f5dba8e7d68db9be0b69748e2c057a18fc0b796e"
+    },
+    {
+      "flight_id": "SYNTHETIC_A",
+      "seed": 42,
+      "variant": "baseline",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.71661376953125e-05,
+      "model_sha256": "4576c13ed23a9cb152d43bf9e8f8c0ca25684b81c8487944833c13989a726420"
+    },
+    {
+      "flight_id": "SYNTHETIC_A",
+      "seed": 73,
+      "variant": "baseline",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.33514404296875e-05,
+      "model_sha256": "30fc0073a93b681d76a4f251b6450728a60c37fe1d3ceee3017639c43e8500d6"
+    },
+    {
+      "flight_id": "SYNTHETIC_A",
+      "seed": 11,
+      "variant": "engineered",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.71661376953125e-05,
+      "model_sha256": "65f706c07492c2aef36008c5345fc3f76bd777268065130f9b2116f313ba2d20"
+    },
+    {
+      "flight_id": "SYNTHETIC_A",
+      "seed": 42,
+      "variant": "engineered",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.52587890625e-05,
+      "model_sha256": "48d0c65f26ab7f167b508a963bce6b9002b2b964bab72f63f45b8251b6967b7b"
+    },
+    {
+      "flight_id": "SYNTHETIC_A",
+      "seed": 73,
+      "variant": "engineered",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 2.47955322265625e-05,
+      "model_sha256": "33e25c2f21eaa6bd7616c4a57619608bae7597b5f3b936b953161f32aaa8a4c9"
+    },
+    {
+      "flight_id": "SYNTHETIC_A",
+      "seed": 11,
+      "variant": "pressure_only",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 2.09808349609375e-05,
+      "model_sha256": "e3774beb62a07d6512946c21f0a4c8bb45aab5352c35ed6a97edc37befbe1d25"
+    },
+    {
+      "flight_id": "SYNTHETIC_A",
+      "seed": 42,
+      "variant": "pressure_only",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.33514404296875e-05,
+      "model_sha256": "064cfd6e9849f2c245a62da188601883abb47896b2f98fd99486b2f878e12b1c"
+    },
+    {
+      "flight_id": "SYNTHETIC_A",
+      "seed": 73,
+      "variant": "pressure_only",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.52587890625e-05,
+      "model_sha256": "7bf01b53d41fee42f4f862221bdaae8c6269c7fe5115940adabb39a799d5e34e"
+    },
+    {
+      "flight_id": "SYNTHETIC_A",
+      "seed": 11,
+      "variant": "tuned_engineered",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.9073486328125e-05,
+      "model_sha256": "1e44d7adeace77f9c7293e371692b330661fd8f9587b336861c80455828fa8c9"
+    },
+    {
+      "flight_id": "SYNTHETIC_A",
+      "seed": 42,
+      "variant": "tuned_engineered",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.52587890625e-05,
+      "model_sha256": "48d0c65f26ab7f167b508a963bce6b9002b2b964bab72f63f45b8251b6967b7b"
+    },
+    {
+      "flight_id": "SYNTHETIC_A",
+      "seed": 73,
+      "variant": "tuned_engineered",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.52587890625e-05,
+      "model_sha256": "21124ecad7bcaf4a2448aa8fb0fa5de1aab20b1128e76d6cb19a421365df1a25"
+    },
+    {
+      "flight_id": "SYNTHETIC_B",
+      "seed": 11,
+      "variant": "altitude_only",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.1444091796875e-05,
+      "model_sha256": "98dfd80b002676c3ac04d46268fddaf7ec807ff41be8723d3545693cb1ac2ec8"
+    },
+    {
+      "flight_id": "SYNTHETIC_B",
+      "seed": 42,
+      "variant": "altitude_only",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.1444091796875e-05,
+      "model_sha256": "3aa171b7314107fff4695b64660c7d6a532026e5e1434f701af75dbf20ff842b"
+    },
+    {
+      "flight_id": "SYNTHETIC_B",
+      "seed": 73,
+      "variant": "altitude_only",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.1444091796875e-05,
+      "model_sha256": "f9b3bf2478f846ad2b665270668a5772b7fac83509245f1eb2097db571fc60fb"
+    },
+    {
+      "flight_id": "SYNTHETIC_B",
+      "seed": 11,
+      "variant": "altitude_pressure",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.1444091796875e-05,
+      "model_sha256": "1823ba5c129757c13848b172d66569950c5ad3844053d63c0ec916286f95a257"
+    },
+    {
+      "flight_id": "SYNTHETIC_B",
+      "seed": 42,
+      "variant": "altitude_pressure",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 9.5367431640625e-06,
+      "model_sha256": "de531433b80669bcdc2a04c639d93a3192de887d779e4f95ceb992c46fe123c4"
+    },
+    {
+      "flight_id": "SYNTHETIC_B",
+      "seed": 73,
+      "variant": "altitude_pressure",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.52587890625e-05,
+      "model_sha256": "33770bffc4da293f0de7be0bfb4aedb8c8c9eabba11773c2eb17ad4f942ecdc6"
+    },
+    {
+      "flight_id": "SYNTHETIC_B",
+      "seed": 11,
+      "variant": "baseline",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.9073486328125e-05,
+      "model_sha256": "1fdb256a5c82775b3578f70b702c12a68dad4ea8bb7276812e04d1482a9eb81d"
+    },
+    {
+      "flight_id": "SYNTHETIC_B",
+      "seed": 42,
+      "variant": "baseline",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 2.6702880859375e-05,
+      "model_sha256": "cc42f9b28c5cd9c3f73e3396e8925e275122b0574e5e4676348885544f08b2de"
+    },
+    {
+      "flight_id": "SYNTHETIC_B",
+      "seed": 73,
+      "variant": "baseline",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 2.09808349609375e-05,
+      "model_sha256": "f7a0b087e32927738cd3d7c3ff1700ffd275be90ab3918f137902b6a0795ba08"
+    },
+    {
+      "flight_id": "SYNTHETIC_B",
+      "seed": 11,
+      "variant": "engineered",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.71661376953125e-05,
+      "model_sha256": "dfe286965638010a7f7f55ec9aed03fba2dcc6f6d28f72487ac39b901875dbfb"
+    },
+    {
+      "flight_id": "SYNTHETIC_B",
+      "seed": 42,
+      "variant": "engineered",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.33514404296875e-05,
+      "model_sha256": "adbc3955f4562c2fadca4525b908e92d67bf6fadae2bf4d627894ccf8a7dcd4f"
+    },
+    {
+      "flight_id": "SYNTHETIC_B",
+      "seed": 73,
+      "variant": "engineered",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.1444091796875e-05,
+      "model_sha256": "244a2350e7f4e6cbc313ad7f001e36ca718957e5e96d7dcbc4642e7eb5658298"
+    },
+    {
+      "flight_id": "SYNTHETIC_B",
+      "seed": 11,
+      "variant": "pressure_only",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.9073486328125e-05,
+      "model_sha256": "258c124d850b5212da02bc0fcaba7afbe15bbc12d6de675a5894654026766dba"
+    },
+    {
+      "flight_id": "SYNTHETIC_B",
+      "seed": 42,
+      "variant": "pressure_only",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 2.288818359375e-05,
+      "model_sha256": "d0e7f953ebfa82d752175fcffba1ad0f9fc1504c41a0e1272de8e12e3ffb2b37"
+    },
+    {
+      "flight_id": "SYNTHETIC_B",
+      "seed": 73,
+      "variant": "pressure_only",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.52587890625e-05,
+      "model_sha256": "497bfcc26283ea051b5a97bcebe2b9a11dff7729cb668fe68a5dde0bfe7ecf9f"
+    },
+    {
+      "flight_id": "SYNTHETIC_B",
+      "seed": 11,
+      "variant": "tuned_engineered",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.71661376953125e-05,
+      "model_sha256": "dfe286965638010a7f7f55ec9aed03fba2dcc6f6d28f72487ac39b901875dbfb"
+    },
+    {
+      "flight_id": "SYNTHETIC_B",
+      "seed": 42,
+      "variant": "tuned_engineered",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.33514404296875e-05,
+      "model_sha256": "adbc3955f4562c2fadca4525b908e92d67bf6fadae2bf4d627894ccf8a7dcd4f"
+    },
+    {
+      "flight_id": "SYNTHETIC_B",
+      "seed": 73,
+      "variant": "tuned_engineered",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.1444091796875e-05,
+      "model_sha256": "244a2350e7f4e6cbc313ad7f001e36ca718957e5e96d7dcbc4642e7eb5658298"
+    },
+    {
+      "flight_id": "SYNTHETIC_C",
+      "seed": 11,
+      "variant": "altitude_only",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.0013580322265625e-05,
+      "model_sha256": "f6529457ede89abd35dc13728e11c74aa35ca0aee3e8a87afc2c6e3d0c57c082"
+    },
+    {
+      "flight_id": "SYNTHETIC_C",
+      "seed": 42,
+      "variant": "altitude_only",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.1444091796875e-05,
+      "model_sha256": "11a3ddec6cf3dacbba5dc6a3e06341eb58287e454ee67804de197ae296f223e1"
+    },
+    {
+      "flight_id": "SYNTHETIC_C",
+      "seed": 73,
+      "variant": "altitude_only",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 5.7220458984375e-06,
+      "model_sha256": "5495ff4dfd59c83b2831d50cc5c9a58d8ec2262f2dda5d10617fd9e32cd8de6e"
+    },
+    {
+      "flight_id": "SYNTHETIC_C",
+      "seed": 11,
+      "variant": "altitude_pressure",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 7.62939453125e-06,
+      "model_sha256": "d99e4d852895031dc57923a7febac6c3c5254ff7913d035b962264f58ea6d151"
+    },
+    {
+      "flight_id": "SYNTHETIC_C",
+      "seed": 42,
+      "variant": "altitude_pressure",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.33514404296875e-05,
+      "model_sha256": "67772088717731cd5c1637afe1666fdcd5ac6521f73f142e47baa5f1d9b2a034"
+    },
+    {
+      "flight_id": "SYNTHETIC_C",
+      "seed": 73,
+      "variant": "altitude_pressure",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 8.58306884765625e-06,
+      "model_sha256": "ba149974f439d273a670bd702e7458765396bcda689b74a1e648c4eb2a438257"
+    },
+    {
+      "flight_id": "SYNTHETIC_C",
+      "seed": 11,
+      "variant": "baseline",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.52587890625e-05,
+      "model_sha256": "a00c84d1e3cccd6a624fcb6e0d7817dce7229674a2efef3a1bfe62cce7a2f634"
+    },
+    {
+      "flight_id": "SYNTHETIC_C",
+      "seed": 42,
+      "variant": "baseline",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.71661376953125e-05,
+      "model_sha256": "5db9dd33cb0e121d12048513615a7fe5941dfb32bdcbfdf9b73d7be1919a2ce8"
+    },
+    {
+      "flight_id": "SYNTHETIC_C",
+      "seed": 73,
+      "variant": "baseline",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.1444091796875e-05,
+      "model_sha256": "099afdf131f711ca4d8a794d5a3c3ca94c983c3270c74165d26e1d5b71730228"
+    },
+    {
+      "flight_id": "SYNTHETIC_C",
+      "seed": 11,
+      "variant": "engineered",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.1444091796875e-05,
+      "model_sha256": "aee34606aecdbfbd7ba80120c376049e64cffc548f7563a043e2c08d81b7dac1"
+    },
+    {
+      "flight_id": "SYNTHETIC_C",
+      "seed": 42,
+      "variant": "engineered",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.811981201171875e-05,
+      "model_sha256": "75415d53b32b3fbe0e9356592117cfdc3d67c29e66085c4ccbede8de997bdc45"
+    },
+    {
+      "flight_id": "SYNTHETIC_C",
+      "seed": 73,
+      "variant": "engineered",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 7.62939453125e-06,
+      "model_sha256": "9a114ff764fc7ac17075b16d4b9a3765bbf5ad1cff4773802cbcfd3ce5d2d181"
+    },
+    {
+      "flight_id": "SYNTHETIC_C",
+      "seed": 11,
+      "variant": "pressure_only",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 9.5367431640625e-06,
+      "model_sha256": "1302f499ed965b62823fde0b3d135cf92de616aaff1217c86a387de60a61f782"
+    },
+    {
+      "flight_id": "SYNTHETIC_C",
+      "seed": 42,
+      "variant": "pressure_only",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.0013580322265625e-05,
+      "model_sha256": "f943061b5797cf3937ceb0b7ea814309064ea08a30f7cc0d6c5f073c7bf6131e"
+    },
+    {
+      "flight_id": "SYNTHETIC_C",
+      "seed": 73,
+      "variant": "pressure_only",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.33514404296875e-05,
+      "model_sha256": "558c0b3f54a45685f81def57109a271eba62fb831ec2013f3e23dc598386f13f"
+    },
+    {
+      "flight_id": "SYNTHETIC_C",
+      "seed": 11,
+      "variant": "tuned_engineered",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.33514404296875e-05,
+      "model_sha256": "e2a54d3f1035c321c60e1effceed9c374fd23d060487fa6a6c5c42b961cb18b1"
+    },
+    {
+      "flight_id": "SYNTHETIC_C",
+      "seed": 42,
+      "variant": "tuned_engineered",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 9.5367431640625e-06,
+      "model_sha256": "3bebe60ee946ef378b786d8631706a7d7a12da7b3b8174c9805ea28fb9320d0d"
+    },
+    {
+      "flight_id": "SYNTHETIC_C",
+      "seed": 73,
+      "variant": "tuned_engineered",
+      "source_kind": "synthetic",
+      "max_additivity_error_cps": 1.1444091796875e-05,
+      "model_sha256": "84164a9b2b36b503df56b42f3525a7a7f2d53e0855663fd0e269d349b5faf84f"
+    }
+  ],
+  "xgboost_version": "3.2.0",
+  "display_seed": 42,
+  "trained_models": false
+}

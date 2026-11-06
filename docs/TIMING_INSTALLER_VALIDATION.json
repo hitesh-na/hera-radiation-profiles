@@ -1,0 +1,7 @@
+{
+  "passed": [
+    "clean_install_and_backups_and_raw_notebook_preservation",
+    "idempotent_reinstall",
+    "unexpected_edits_refused_without_changes"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "status": "RAW_FILES_ONLY_NOT_TRAINING_READY",
+  "note": "Exact original bytes. File integrity does not verify clock alignment, live time, detector comparability, or scientific coverage.",
+  "files": [
+    {
+      "flight_id": "2025-06-01",
+      "source_folder": "2025-06-01",
+      "kind": "detector",
+      "relative_path": "data/raw/2025-06-01/Bravo_CW_Top.txt",
+      "original_filename": "Bravo CW Top.txt",
+      "bytes": 11745447,
+      "sha256": "47fa9d985061388c4f2c22f3de21f31539886e975d44a53cb2fd2c2e2cbab1f1",
+      "source_url": "https://drive.google.com/file/d/1BFyiSKFUi_vjM9d-6jTEj7g0MiOMM2De/view?usp=drivesdk",
+      "drive_file_id": "1BFyiSKFUi_vjM9d-6jTEj7g0MiOMM2De"
+    },
+    {
+      "flight_id": "2025-06-01",
+      "source_folder": "2025-06-01",
+      "kind": "logger",
+      "relative_path": "data/raw/2025-06-01/Bravo_CW_Datalogger_Coincident.csv",
+      "original_filename": "Bravo CW Datalogger Coincident.csv",
+      "bytes": 46239704,
+      "sha256": "5988894780a52adbada6c4f74da33c975bf6e338f79257212be42bd58aa07aa0",
+      "source_url": "https://drive.google.com/file/d/1iWsvagtcdMcUEoSBZeWTwnVp7bcW9Ibh/view?usp=drivesdk",
+      "drive_file_id": "1iWsvagtcdMcUEoSBZeWTwnVp7bcW9Ibh"
+    },
+    {
+      "flight_id": "2025-10-04",
+      "source_folder": "2025-10-04_Claire",
+      "kind": "detector",
+      "relative_path": "data/raw/2025-10-04_Claire/AxLab_M_011.txt",
+      "original_filename": "AxLab_M_011.txt",
+      "bytes": 12282828,
+      "sha256": "a835363819a16c5b915a7fd910f382285fbfc0b7bce91c9b4a4bf10196ac9497",
+      "source_url": "https://drive.google.com/file/d/16hghPchV17eFsSZjJHaK-V0cA6Y5vwxI/view?usp=drivesdk",
+      "drive_file_id": "16hghPchV17eFsSZjJHaK-V0cA6Y5vwxI"
+    },
+    {
+      "flight_id": "2025-10-04",
+      "source_folder": "2025-10-04_Claire",
+      "kind": "logger",
+      "relative_path": "data/raw/2025-10-04_Claire/AHD009.csv",
+      "original_filename": "AHD009.csv",
+      "bytes": 23091633,
+      "sha256": "325cf07444a6ef8179aeb31463366d9dc532abcbc4152c985ecd034874aa1b6d",
+      "source_url": "https://drive.google.com/file/d/1XBVeQL53nEtG-aP0c57mR5UM5p-jE9hN/view?usp=drivesdk",
+      "drive_file_id": "1XBVeQL53nEtG-aP0c57mR5UM5p-jE9hN"
+    },
+    {
+      "flight_id": "2026-03-28",
+      "source_folder": "2026-03-28",
+      "kind": "detector",
+      "relative_path": "data/raw/2026-03-28/TopScint.txt",
+      "original_filename": "TopScint.txt",
+      "bytes": 6095537,
+      "sha256": "136674a7af9e92541d8a0d025e3468f0a98af4e94cb07a02711f59afd1583972",
+      "source_url": "https://drive.google.com/file/d/1FcZgDN-qDehrJph5aFkaXhLGDth2yuvw/view?usp=drivesdk",
+      "drive_file_id": "1FcZgDN-qDehrJph5aFkaXhLGDth2yuvw"
+    },
+    {
+      "flight_id": "2026-03-28",
+      "source_folder": "2026-03-28",
+      "kind": "logger",
+      "relative_path": "data/raw/2026-03-28/DataLogger.csv",
+      "original_filename": "DataLogger.csv",
+      "bytes": 7660004,
+      "sha256": "d416bc4330d8709cbbe0f783384e019d10e5dc5fcf01c7c66611abf0c3cef6ed",
+      "source_url": "https://drive.google.com/file/d/1zORjJ2qWglHbgkOLsGUWW2ePywYg-Ww2/view?usp=drivesdk",
+      "drive_file_id": "1zORjJ2qWglHbgkOLsGUWW2ePywYg-Ww2"
+    }
+  ]
+}

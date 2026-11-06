@@ -1,0 +1,87 @@
+{
+  "package": "HERA real diagnostics",
+  "version": "1.0",
+  "status": "DIAGNOSTICS_ONLY_NOT_TRAINING_READY",
+  "files": [
+    {
+      "path": "scripts/diagnose_real_data.py",
+      "bytes": 27052,
+      "sha256": "438a9f8962181afe05d71cb0e61150e3825e2ed4893b3aa0ac3133abbc417151"
+    },
+    {
+      "path": "docs/REAL_DIAGNOSTICS_NEXT_STEP.md",
+      "bytes": 6230,
+      "sha256": "30f1e4f0b1b5e0901b83ca05d152e5d49d40446cdb432df98b70cbaaf911019d"
+    },
+    {
+      "path": "docs/HERA_INSTRUMENT_EVIDENCE.md",
+      "bytes": 5253,
+      "sha256": "fb92102a5a5093e5bb61f2fb211199590985264cb712e60388cc8707df453045"
+    },
+    {
+      "path": "docs/REAL_DIAGNOSTICS_VALIDATION.md",
+      "bytes": 1664,
+      "sha256": "adcb7a378b886ae26b3251f41bf04000185a5aa5b84370dd001b7cabf26b0db1"
+    },
+    {
+      "path": "results/real_diagnostics_reference_20261012/2025-06-01_diagnostics.png",
+      "bytes": 267770,
+      "sha256": "d262c98589de9b4d21e697893bb695464ac69d4262ebf1e391cfac0eeb0884e2"
+    },
+    {
+      "path": "results/real_diagnostics_reference_20261012/2025-06-01_pressure_flags.csv",
+      "bytes": 5365,
+      "sha256": "410459607046d43d3aacbe95c6ffa6f2ebc524d1dd41ba1b4b929e2741b3f1af"
+    },
+    {
+      "path": "results/real_diagnostics_reference_20261012/2025-06-01_timer_jumps.csv",
+      "bytes": 256,
+      "sha256": "210a4034622be07ffbd581dd682a0971da2cd55987069131d4bfc5c24de9a0c2"
+    },
+    {
+      "path": "results/real_diagnostics_reference_20261012/2025-10-04_diagnostics.png",
+      "bytes": 255088,
+      "sha256": "588f122cad7df15a4e85b4e9e68da92fd03b78c49a95f1a7544e6f5fbe588d92"
+    },
+    {
+      "path": "results/real_diagnostics_reference_20261012/2025-10-04_pressure_flags.csv",
+      "bytes": 9089,
+      "sha256": "9b3c69830812958f25500ed72451db7b907505fd9fafe181ae2c8a2d5186f31b"
+    },
+    {
+      "path": "results/real_diagnostics_reference_20261012/2025-10-04_timer_jumps.csv",
+      "bytes": 194,
+      "sha256": "12a336763d3bbfb244efe2a9019dca21f3d61b2ae1e370ffc3d9599ad29ce9cf"
+    },
+    {
+      "path": "results/real_diagnostics_reference_20261012/2026-03-28_diagnostics.png",
+      "bytes": 240770,
+      "sha256": "9463aeb1700cd0716d5d229138ff37ab5bd50891ef057bf7bac80f1afad30178"
+    },
+    {
+      "path": "results/real_diagnostics_reference_20261012/2026-03-28_pressure_flags.csv",
+      "bytes": 90,
+      "sha256": "a41dfd8067d2fb5b22ca38f78880a6bd644895969488033c1d7d2bca05837047"
+    },
+    {
+      "path": "results/real_diagnostics_reference_20261012/2026-03-28_timer_jumps.csv",
+      "bytes": 253,
+      "sha256": "a7db0143835f592eda820112affc46244fedccde341012998784b65acd1031b8"
+    },
+    {
+      "path": "results/real_diagnostics_reference_20261012/report.html",
+      "bytes": 1024817,
+      "sha256": "cf4db7d48d088ad4745f15dce11534d2c5c85698fd2fc3c5196ede3eaa7c303d"
+    },
+    {
+      "path": "results/real_diagnostics_reference_20261012/report.md",
+      "bytes": 6107,
+      "sha256": "6c376494c6cd0a163f12cd9736231a481fb94a59d96157e79b2a82a405965796"
+    },
+    {
+      "path": "results/real_diagnostics_reference_20261012/summary.json",
+      "bytes": 17086,
+      "sha256": "974f14d409f50e4c12780a45269865f5b75d308d4d17888fba0097c20d840d69"
+    }
+  ]
+}

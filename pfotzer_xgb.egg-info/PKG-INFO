@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: pfotzer-xgb
+Version: 0.1.0
+Summary: Radiation Profiles & Pfotzer Peak Estimation, XGBoost-only research workflow
+Requires-Python: >=3.10
+Requires-Dist: numpy<3,>=1.26
+Requires-Dist: pandas<3,>=2.2
+Requires-Dist: scipy<2,>=1.13
+Requires-Dist: scikit-learn<2,>=1.5
+Requires-Dist: xgboost<4,>=2.1
+Requires-Dist: matplotlib<4,>=3.8

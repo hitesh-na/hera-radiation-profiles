@@ -1,0 +1,439 @@
+{
+  "status": "TIMING_REVIEW_COMPLETE_TRAINING_PENDING",
+  "training_ready": false,
+  "provenance": {
+    "generated_utc": "2026-10-15T01:03:58.850127+00:00",
+    "review_version": "1.0",
+    "script_sha256": "e5e7002dc22e622cf6d26c6a1377ecc23929eb7af835750e24cd3e88231d6cf0",
+    "alignment_module_sha256": "840177d0a28bf2182968219cc5f3fc0048b79d9c3559072b67a3a15d797cbc6d",
+    "raw_diagnostics_script_sha256": "438a9f8962181afe05d71cb0e61150e3825e2ed4893b3aa0ac3133abbc417151",
+    "manifest_sha256": "3cb3621a9480ef43b30c77e7edbd9282dbdc78a91dbfb3720ca8db9f29d6d63c",
+    "inputs": [
+      {
+        "flight_id": "2025-06-01",
+        "kind": "detector",
+        "relative_path": "data/raw/2025-06-01/Bravo_CW_Top.txt",
+        "bytes": 11745447,
+        "sha256": "47fa9d985061388c4f2c22f3de21f31539886e975d44a53cb2fd2c2e2cbab1f1"
+      },
+      {
+        "flight_id": "2025-06-01",
+        "kind": "logger",
+        "relative_path": "data/raw/2025-06-01/Bravo_CW_Datalogger_Coincident.csv",
+        "bytes": 46239704,
+        "sha256": "5988894780a52adbada6c4f74da33c975bf6e338f79257212be42bd58aa07aa0"
+      },
+      {
+        "flight_id": "2025-10-04",
+        "kind": "detector",
+        "relative_path": "data/raw/2025-10-04_Claire/AxLab_M_011.txt",
+        "bytes": 12282828,
+        "sha256": "a835363819a16c5b915a7fd910f382285fbfc0b7bce91c9b4a4bf10196ac9497"
+      },
+      {
+        "flight_id": "2025-10-04",
+        "kind": "logger",
+        "relative_path": "data/raw/2025-10-04_Claire/AHD009.csv",
+        "bytes": 23091633,
+        "sha256": "325cf07444a6ef8179aeb31463366d9dc532abcbc4152c985ecd034874aa1b6d"
+      },
+      {
+        "flight_id": "2026-03-28",
+        "kind": "detector",
+        "relative_path": "data/raw/2026-03-28/TopScint.txt",
+        "bytes": 6095537,
+        "sha256": "136674a7af9e92541d8a0d025e3468f0a98af4e94cb07a02711f59afd1583972"
+      },
+      {
+        "flight_id": "2026-03-28",
+        "kind": "logger",
+        "relative_path": "data/raw/2026-03-28/DataLogger.csv",
+        "bytes": 7660004,
+        "sha256": "d416bc4330d8709cbbe0f783384e019d10e5dc5fcf01c7c66611abf0c3cef6ed"
+      }
+    ],
+    "versions": {
+      "python": "3.11.9",
+      "numpy": "2.4.6",
+      "pandas": "2.3.3",
+      "matplotlib": "3.11.2"
+    },
+    "source_review_sha256": "910b3435fe490de62289a42521401a2a679be94f76008419ee025fa095e60961"
+  },
+  "known_shift_tests": [
+    {
+      "planted_source_delay_s": 60.0,
+      "required_offset_s": -60.0,
+      "upstream_roll_shift_s": -60.0,
+      "upstream_applied_offset_s": 60.0,
+      "upstream_residual_s": 120.0,
+      "corrected_offset_s": -59.99098011742088,
+      "corrected_residual_s": 0.009019882579117677
+    },
+    {
+      "planted_source_delay_s": -40.0,
+      "required_offset_s": 40.0,
+      "upstream_roll_shift_s": 40.0,
+      "upstream_applied_offset_s": -40.0,
+      "upstream_residual_s": -80.0,
+      "corrected_offset_s": 39.99127449329525,
+      "corrected_residual_s": -0.008725506704749364
+    },
+    {
+      "planted_source_delay_s": 0.0,
+      "required_offset_s": -0.0,
+      "upstream_roll_shift_s": 0.0,
+      "upstream_applied_offset_s": -0.0,
+      "upstream_residual_s": 0.0,
+      "corrected_offset_s": 0.0,
+      "corrected_residual_s": 0.0
+    }
+  ],
+  "flights": [
+    {
+      "flight_id": "2025-06-01",
+      "timer_wraps": 4,
+      "windows_s": {
+        "whole_flight": [
+          3435.407227,
+          10995.054199499999
+        ],
+        "before_pressure_minimum": [
+          3435.407227,
+          9284.961914
+        ],
+        "after_pressure_minimum": [
+          9284.961914,
+          10995.054199499999
+        ]
+      },
+      "whole_flight_curve_offset_range_s": [
+        -17.17042755560431,
+        -13.996851106266435
+      ],
+      "largest_accepted_GPS_gap_minutes": 0.7389322833333305,
+      "pressure_clock_candidate": {
+        "verified": false,
+        "pivot_detector_s": 6111.118603,
+        "pressure_minimum_detector_s": 9298.998713,
+        "parameter_order": [
+          "shift_at_pivot_s",
+          "relative_clock_ppm",
+          "pressure_gain",
+          "pressure_bias_pa"
+        ],
+        "equation_time": "t_logger = pivot + (1 + ppm/1e6)*(t_detector-pivot) + shift",
+        "equation_pressure": "P_logger(t_logger) ~= gain*P_detector(t_detector) + bias",
+        "fits": {
+          "joint": {
+            "parameters": [
+              -16.519326253653986,
+              -1792.4635599228068,
+              1.0016895351287585,
+              -127.40294043316413
+            ],
+            "success": true,
+            "at_parameter_bounds": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "n_pressure_samples": 1371,
+            "detector_time_range_s": [
+              3355.5859955,
+              11074.364464
+            ],
+            "median_absolute_pressure_residual_pa": 6.567342613227084,
+            "p95_absolute_pressure_residual_pa": 30.872114287878503,
+            "largest_logger_interpolation_gap_s": 4.857421999999133,
+            "out_of_logger_time_support": 0
+          },
+          "before_pressure_minimum": {
+            "parameters": [
+              -13.914595935226144,
+              -1090.732761435495,
+              1.0011676957737103,
+              -142.6102173258765
+            ],
+            "success": true,
+            "at_parameter_bounds": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "n_pressure_samples": 995,
+            "detector_time_range_s": [
+              3355.5859955,
+              7347.201802
+            ],
+            "median_absolute_pressure_residual_pa": 4.110001762846878,
+            "p95_absolute_pressure_residual_pa": 23.428811125102946,
+            "largest_logger_interpolation_gap_s": 4.363769500000217,
+            "out_of_logger_time_support": 0
+          },
+          "after_pressure_minimum": {
+            "parameters": [
+              -18.835255255488146,
+              -976.7395939135135,
+              1.0038751619657569,
+              -145.65494782271603
+            ],
+            "success": true,
+            "at_parameter_bounds": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "n_pressure_samples": 376,
+            "detector_time_range_s": [
+              9555.045392,
+              11074.364464
+            ],
+            "median_absolute_pressure_residual_pa": 6.284633887722067,
+            "p95_absolute_pressure_residual_pa": 20.464639284913574,
+            "largest_logger_interpolation_gap_s": 4.857421999999133,
+            "out_of_logger_time_support": 0
+          }
+        },
+        "note": "Sensor-only fit; residual Pa is NOT timing accuracy or a confidence interval."
+      },
+      "training_ready": false,
+      "review_bins": 639,
+      "bins_with_candidate_nearby_accepted_gps": 638,
+      "training_ready_bins": 0
+    },
+    {
+      "flight_id": "2025-10-04",
+      "timer_wraps": 3,
+      "windows_s": {
+        "whole_flight": [
+          4565.46875,
+          12234.597656499998
+        ],
+        "before_pressure_minimum": [
+          4565.46875,
+          9975.234375
+        ],
+        "after_pressure_minimum": [
+          9975.234375,
+          12234.597656499998
+        ]
+      },
+      "whole_flight_curve_offset_range_s": [
+        -41.810646882159176,
+        -40.17547992770033
+      ],
+      "largest_accepted_GPS_gap_minutes": 46.19484049999998,
+      "pressure_clock_candidate": {
+        "verified": false,
+        "pivot_detector_s": 7411.03803,
+        "pressure_minimum_detector_s": 10012.936001,
+        "parameter_order": [
+          "shift_at_pivot_s",
+          "relative_clock_ppm",
+          "pressure_gain",
+          "pressure_bias_pa"
+        ],
+        "equation_time": "t_logger = pivot + (1 + ppm/1e6)*(t_detector-pivot) + shift",
+        "equation_pressure": "P_logger(t_logger) ~= gain*P_detector(t_detector) + bias",
+        "fits": {
+          "joint": {
+            "parameters": [
+              -35.47920470633814,
+              -4130.285749309263,
+              1.0014553851686272,
+              -158.84799689853395
+            ],
+            "success": true,
+            "at_parameter_bounds": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "n_pressure_samples": 1445,
+            "detector_time_range_s": [
+              4496.78124,
+              12356.974451999999
+            ],
+            "median_absolute_pressure_residual_pa": 8.610488549253205,
+            "p95_absolute_pressure_residual_pa": 26.93333334279741,
+            "largest_logger_interpolation_gap_s": 7.261719000000085,
+            "out_of_logger_time_support": 0
+          },
+          "before_pressure_minimum": {
+            "parameters": [
+              -33.26149631995151,
+              -3966.9643005418716,
+              1.0002564210174365,
+              -162.3327157324044
+            ],
+            "success": true,
+            "at_parameter_bounds": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "n_pressure_samples": 939,
+            "detector_time_range_s": [
+              4496.78124,
+              9163.324017
+            ],
+            "median_absolute_pressure_residual_pa": 5.532528209574593,
+            "p95_absolute_pressure_residual_pa": 24.606137306488364,
+            "largest_logger_interpolation_gap_s": 7.070800499999677,
+            "out_of_logger_time_support": 0
+          },
+          "after_pressure_minimum": {
+            "parameters": [
+              -34.144060213762415,
+              -4224.7236836468865,
+              1.0023460822392352,
+              -157.1993134044514
+            ],
+            "success": true,
+            "at_parameter_bounds": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "n_pressure_samples": 506,
+            "detector_time_range_s": [
+              10327.1713435,
+              12356.974451999999
+            ],
+            "median_absolute_pressure_residual_pa": 4.731174752270817,
+            "p95_absolute_pressure_residual_pa": 14.200253840052026,
+            "largest_logger_interpolation_gap_s": 7.261719000000085,
+            "out_of_logger_time_support": 0
+          }
+        },
+        "note": "Sensor-only fit; residual Pa is NOT timing accuracy or a confidence interval."
+      },
+      "training_ready": false,
+      "review_bins": 467,
+      "bins_with_candidate_nearby_accepted_gps": 374,
+      "training_ready_bins": 0
+    },
+    {
+      "flight_id": "2026-03-28",
+      "timer_wraps": 4,
+      "windows_s": {
+        "whole_flight": [
+          2157.982421,
+          5353.018554
+        ],
+        "before_pressure_minimum": [
+          2157.982421,
+          4245.220703
+        ],
+        "after_pressure_minimum": [
+          4245.220703,
+          5353.018554
+        ]
+      },
+      "whole_flight_curve_offset_range_s": [
+        -21.899335886165826,
+        -8.11004469442627
+      ],
+      "largest_accepted_GPS_gap_minutes": 0.4846517000000252,
+      "pressure_clock_candidate": {
+        "verified": false,
+        "pivot_detector_s": 3758.882509,
+        "pressure_minimum_detector_s": 4253.060719,
+        "parameter_order": [
+          "shift_at_pivot_s",
+          "relative_clock_ppm",
+          "pressure_gain",
+          "pressure_bias_pa"
+        ],
+        "equation_time": "t_logger = pivot + (1 + ppm/1e6)*(t_detector-pivot) + shift",
+        "equation_pressure": "P_logger(t_logger) ~= gain*P_detector(t_detector) + bias",
+        "fits": {
+          "joint": {
+            "parameters": [
+              -10.65507372714749,
+              -2794.301796157924,
+              0.9971965514262361,
+              46.33419402361984
+            ],
+            "success": true,
+            "at_parameter_bounds": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "n_pressure_samples": 825,
+            "detector_time_range_s": [
+              2095.7473785,
+              5421.0052455000005
+            ],
+            "median_absolute_pressure_residual_pa": 15.800517160481832,
+            "p95_absolute_pressure_residual_pa": 42.91188718356497,
+            "largest_logger_interpolation_gap_s": 13.46630899999991,
+            "out_of_logger_time_support": 0
+          },
+          "before_pressure_minimum": {
+            "parameters": [
+              -12.46851967061462,
+              -4539.465470419703,
+              0.995393168472044,
+              127.95869833668533
+            ],
+            "success": true,
+            "at_parameter_bounds": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "n_pressure_samples": 536,
+            "detector_time_range_s": [
+              2095.7473785,
+              4250.973035
+            ],
+            "median_absolute_pressure_residual_pa": 8.839709679838052,
+            "p95_absolute_pressure_residual_pa": 27.818218725451516,
+            "largest_logger_interpolation_gap_s": 13.46630899999991,
+            "out_of_logger_time_support": 0
+          },
+          "after_pressure_minimum": {
+            "parameters": [
+              -5.575775909700543,
+              -5559.480745348961,
+              0.9968959255083756,
+              184.09921017415945
+            ],
+            "success": true,
+            "at_parameter_bounds": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "n_pressure_samples": 289,
+            "detector_time_range_s": [
+              4255.2238865,
+              5421.0052455000005
+            ],
+            "median_absolute_pressure_residual_pa": 9.599893060090835,
+            "p95_absolute_pressure_residual_pa": 32.594118875489215,
+            "largest_logger_interpolation_gap_s": 10.197753999999804,
+            "out_of_logger_time_support": 0
+          }
+        },
+        "note": "Sensor-only fit; residual Pa is NOT timing accuracy or a confidence interval."
+      },
+      "training_ready": false,
+      "review_bins": 692,
+      "bins_with_candidate_nearby_accepted_gps": 588,
+      "training_ready_bins": 0
+    }
+  ]
+}

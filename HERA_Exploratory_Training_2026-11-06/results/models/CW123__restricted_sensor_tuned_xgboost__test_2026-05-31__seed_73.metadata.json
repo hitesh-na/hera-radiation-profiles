@@ -1,0 +1,30 @@
+{
+  "channel": "CW123",
+  "variant": "restricted_sensor_tuned_xgboost",
+  "outer_test_flight": "2026-05-31",
+  "seed": 73,
+  "train_flights": "2025-07-20|2025-08-24|2026-03-28|2026-08-21",
+  "features": [
+    "Altitude_m",
+    "Pressure_Pa",
+    "Box_Temperature_C",
+    "Latitude_deg",
+    "Longitude_deg",
+    "Vertical_speed_m_s",
+    "Log_pressure",
+    "Log_pressure_change_per_s"
+  ],
+  "parameters": {
+    "subsample": 0.85,
+    "reg_lambda": 15.0,
+    "reg_alpha": 0,
+    "n_estimators": 100,
+    "min_child_weight": 8,
+    "max_depth": 3,
+    "learning_rate": 0.09,
+    "gamma": 0.1,
+    "colsample_bytree": 0.75
+  },
+  "status": "EXPLORATORY_NOT_CALIBRATED_PHYSICAL_FLUX",
+  "negative_prediction_policy": "clip to zero; SHAP values explain raw output"
+}

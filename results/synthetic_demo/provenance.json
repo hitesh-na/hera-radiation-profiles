@@ -1,0 +1,36 @@
+{
+  "source_kind": "synthetic",
+  "input_sha256": "5b590b4a49a57d7f6b9336994728e67d4c5b14e128e0e26888c699f9a3982829",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "xgboost": "3.4.1",
+    "matplotlib": "3.10.8"
+  },
+  "metadata": {
+    "source_kind": "synthetic",
+    "warning": "NO REAL HERA RESULTS"
+  },
+  "flight_ids": [
+    "SYNTHETIC_A",
+    "SYNTHETIC_B",
+    "SYNTHETIC_C"
+  ],
+  "early_stopping": "disabled: n_estimators selected only by inner grouped validation",
+  "source_sha256": {
+    "pfotzer_xgb/__main__.py": "7eb69e41efa35cd443fd7279f8ec9960e7e0b2894941520149cf09137bc6a15e",
+    "pfotzer_xgb/peaks.py": "855fd2bd6e55f8bc839fd32e5f015a0d768467becde51b5051f42cf0f0b1464d",
+    "pfotzer_xgb/profiles.py": "ea6aa5b39cfab733290b7ce9dc3ef5c2d1eb351bf251d0bb7f25cd498ba17403",
+    "pfotzer_xgb/quality.py": "6e923f6baa38978e6fd4445c93a1d14f86ccbd22f086d8febab6354e09fbe50a",
+    "pfotzer_xgb/preprocessing.py": "5cbbb3ffeef3cb0c17708f5b44b98c3852133c8ba25aad7716ec2f1d6cd5b617",
+    "pfotzer_xgb/experiments.py": "b4adb034b7c225db1499627fb8ba4b5b5723e8acf75918998422cadc677603b1",
+    "pfotzer_xgb/synthetic.py": "2bb69f7bd96a213c226fa19f2f761b7912af9d17344c9b0f587b8c377ba9c9cf",
+    "pfotzer_xgb/features.py": "02d445ddac322a0779bf451b68c123796c4ceb882f029fab7b7ce6e18868f72b",
+    "pfotzer_xgb/io.py": "6a3a80856aa37bdc49e87cabcd396c9fa96467bac0f0c9e15aa513d8d2b9d3e6",
+    "pfotzer_xgb/__init__.py": "963b9fd3ec7088b9a1ff4b9131bfc1dc71a22c33541c779bd3c21d06f69a2098",
+    "pfotzer_xgb/plotting.py": "8be70223a43641564c81b0317e7481b5336eb8eb98cdafa833cef03c467a4d4e"
+  }
+}

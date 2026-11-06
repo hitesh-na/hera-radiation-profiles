@@ -1,0 +1,3 @@
+PASS: 54 complete outer fits; disjoint splits; exactly-once held-out predictions; rejected peak errors absent; all five PNG files valid; saved outer model replays.
+Notebook: 10 code cells executed in order using IPython in-process, zero errors.
+Final synthetic refit: sensor-only prediction checked; not an independent scientific test.

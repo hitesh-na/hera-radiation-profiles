@@ -1,0 +1,14 @@
+{
+  "tests_run": 35,
+  "failures": 0,
+  "errors": 0,
+  "success": true,
+  "versions": {
+    "xgboost": "3.2.0",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit_learn": "1.8.0"
+  },
+  "real_model_trained": false,
+  "note": "Model unit tests use artificial fixtures only. A truncated old local XGBoost binary was replaced by a fresh xgboost-cpu 3.2.0 installation for validation."
+}

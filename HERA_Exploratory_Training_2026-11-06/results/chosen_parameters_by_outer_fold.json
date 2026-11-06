@@ -1,0 +1,172 @@
+[
+  {
+    "channel": "CW12",
+    "outer_test_flight": "2025-07-20",
+    "candidate_id": 22,
+    "inner_macro_rmse_cps": 0.6556206215859101,
+    "parameters": {
+      "subsample": 1.0,
+      "reg_lambda": 1.0,
+      "reg_alpha": 0.1,
+      "n_estimators": 450,
+      "min_child_weight": 3,
+      "max_depth": 2,
+      "learning_rate": 0.09,
+      "gamma": 0.1,
+      "colsample_bytree": 0.9
+    }
+  },
+  {
+    "channel": "CW12",
+    "outer_test_flight": "2025-08-24",
+    "candidate_id": 0,
+    "inner_macro_rmse_cps": 0.6639924388191527,
+    "parameters": {
+      "subsample": 0.85,
+      "reg_lambda": 1.0,
+      "reg_alpha": 0.1,
+      "n_estimators": 180,
+      "min_child_weight": 3,
+      "max_depth": 5,
+      "learning_rate": 0.05,
+      "gamma": 0,
+      "colsample_bytree": 0.75
+    }
+  },
+  {
+    "channel": "CW12",
+    "outer_test_flight": "2026-03-28",
+    "candidate_id": 18,
+    "inner_macro_rmse_cps": 0.5505483284785173,
+    "parameters": {
+      "subsample": 0.85,
+      "reg_lambda": 5.0,
+      "reg_alpha": 0,
+      "n_estimators": 450,
+      "min_child_weight": 20,
+      "max_depth": 3,
+      "learning_rate": 0.025,
+      "gamma": 0.1,
+      "colsample_bytree": 0.75
+    }
+  },
+  {
+    "channel": "CW12",
+    "outer_test_flight": "2026-05-31",
+    "candidate_id": 7,
+    "inner_macro_rmse_cps": 0.5541605316785306,
+    "parameters": {
+      "subsample": 0.7,
+      "reg_lambda": 1.0,
+      "reg_alpha": 1.0,
+      "n_estimators": 180,
+      "min_child_weight": 3,
+      "max_depth": 4,
+      "learning_rate": 0.05,
+      "gamma": 0,
+      "colsample_bytree": 0.75
+    }
+  },
+  {
+    "channel": "CW12",
+    "outer_test_flight": "2026-08-21",
+    "candidate_id": 15,
+    "inner_macro_rmse_cps": 0.45920016575441513,
+    "parameters": {
+      "subsample": 0.85,
+      "reg_lambda": 15.0,
+      "reg_alpha": 0,
+      "n_estimators": 100,
+      "min_child_weight": 8,
+      "max_depth": 3,
+      "learning_rate": 0.09,
+      "gamma": 0.1,
+      "colsample_bytree": 0.75
+    }
+  },
+  {
+    "channel": "CW123",
+    "outer_test_flight": "2025-07-20",
+    "candidate_id": 22,
+    "inner_macro_rmse_cps": 0.6664582262065413,
+    "parameters": {
+      "subsample": 1.0,
+      "reg_lambda": 1.0,
+      "reg_alpha": 0.1,
+      "n_estimators": 450,
+      "min_child_weight": 3,
+      "max_depth": 2,
+      "learning_rate": 0.09,
+      "gamma": 0.1,
+      "colsample_bytree": 0.9
+    }
+  },
+  {
+    "channel": "CW123",
+    "outer_test_flight": "2025-08-24",
+    "candidate_id": 0,
+    "inner_macro_rmse_cps": 0.6843307104770878,
+    "parameters": {
+      "subsample": 0.85,
+      "reg_lambda": 1.0,
+      "reg_alpha": 0.1,
+      "n_estimators": 180,
+      "min_child_weight": 3,
+      "max_depth": 5,
+      "learning_rate": 0.05,
+      "gamma": 0,
+      "colsample_bytree": 0.75
+    }
+  },
+  {
+    "channel": "CW123",
+    "outer_test_flight": "2026-03-28",
+    "candidate_id": 0,
+    "inner_macro_rmse_cps": 0.5696318327205219,
+    "parameters": {
+      "subsample": 0.85,
+      "reg_lambda": 1.0,
+      "reg_alpha": 0.1,
+      "n_estimators": 180,
+      "min_child_weight": 3,
+      "max_depth": 5,
+      "learning_rate": 0.05,
+      "gamma": 0,
+      "colsample_bytree": 0.75
+    }
+  },
+  {
+    "channel": "CW123",
+    "outer_test_flight": "2026-05-31",
+    "candidate_id": 15,
+    "inner_macro_rmse_cps": 0.5426394219568131,
+    "parameters": {
+      "subsample": 0.85,
+      "reg_lambda": 15.0,
+      "reg_alpha": 0,
+      "n_estimators": 100,
+      "min_child_weight": 8,
+      "max_depth": 3,
+      "learning_rate": 0.09,
+      "gamma": 0.1,
+      "colsample_bytree": 0.75
+    }
+  },
+  {
+    "channel": "CW123",
+    "outer_test_flight": "2026-08-21",
+    "candidate_id": 7,
+    "inner_macro_rmse_cps": 0.47207295503181457,
+    "parameters": {
+      "subsample": 0.7,
+      "reg_lambda": 1.0,
+      "reg_alpha": 1.0,
+      "n_estimators": 180,
+      "min_child_weight": 3,
+      "max_depth": 4,
+      "learning_rate": 0.05,
+      "gamma": 0,
+      "colsample_bytree": 0.75
+    }
+  }
+]
