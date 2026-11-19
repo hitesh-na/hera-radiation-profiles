@@ -1,0 +1,63 @@
+{
+  "status": "final refit of the five-flight recorded-rate experiment",
+  "source_repository": "https://github.com/hitesh-na/hera-radiation-profiles",
+  "source_commit": "38644fcb0f97c08641bea0835234b8b6d864c669",
+  "feature": "Pressure_Pa",
+  "feature_unit": "Pa",
+  "prediction_unit": "recorded counts per elapsed second",
+  "variant": "pressure_only_xgboost",
+  "seed": 42,
+  "parameters": {
+    "objective": "reg:squarederror",
+    "tree_method": "hist",
+    "n_estimators": 180,
+    "learning_rate": 0.05,
+    "max_depth": 3,
+    "min_child_weight": 5,
+    "subsample": 0.85,
+    "colsample_bytree": 0.9,
+    "gamma": 0,
+    "reg_alpha": 0,
+    "reg_lambda": 1
+  },
+  "training_pressure_min_pa": 1197.9217750829275,
+  "training_pressure_max_pa": 94356.76645585228,
+  "training_flights": {
+    "2025-07-20": 274,
+    "2025-08-24": 309,
+    "2026-03-28": 112,
+    "2026-05-31": 137,
+    "2026-08-21": 86
+  },
+  "training_rows_per_channel": 918,
+  "window_seconds": 30,
+  "training_weights": "equal total weight per flight",
+  "training_verified": false,
+  "independent_final_model_test_completed": false,
+  "models": {
+    "CW12": {
+      "file": "models/CW12_pressure_only.ubj",
+      "sha256": "7adeabe5edfe12acc3ec04952d9262dbe830dde72c550b3fe34f806ef5198d84",
+      "target_column": "Rate_CW12_cps",
+      "training_input_reload_max_difference_cps": 0.0
+    },
+    "CW123": {
+      "file": "models/CW123_pressure_only.ubj",
+      "sha256": "51f7baf9d1720a75912ba2b7e681b41dce9e7a9ae408410bd9f1fc4fe8be4503",
+      "target_column": "Rate_CW123_cps",
+      "training_input_reload_max_difference_cps": 0.0
+    }
+  },
+  "xgboost_version": "2.1.4",
+  "source_input_hashes": {
+    "train_exploratory.py": "41ba103206d2f79e34eb7a0888fc16aba264ba05961e3a005f54654413635c61",
+    "inputs/INPUT_HASHES.json": "aca992b1d65f5d2cb5ccbea86f1d57f950bc2e3aab3ad33b0b487c293cc55991",
+    "results/held_out_predictions_per_seed.csv": "93b385b4f34cf9bb37c21bb2dd28118fb062d15573f10a1f901623687c4510e7"
+  },
+  "peak_screening_source_hashes": {
+    "pfotzer_xgb/peaks.py": "855fd2bd6e55f8bc839fd32e5f015a0d768467becde51b5051f42cf0f0b1464d",
+    "pfotzer_xgb/profiles.py": "ea6aa5b39cfab733290b7ce9dc3ef5c2d1eb351bf251d0bb7f25cd498ba17403",
+    "config/research.json": "cbc4f4aebe26b26d77ef1c172bf546b8856ccda61f8be6b3b4fcfea26befa606"
+  },
+  "variant_selection": "lowest mean held-out RMSE in the prior five-flight study for both targets"
+}

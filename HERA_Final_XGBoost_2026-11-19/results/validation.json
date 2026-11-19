@@ -1,0 +1,16 @@
+{
+  "primary_total_pairs": 20,
+  "primary_pairs_with_both_peaks": 0,
+  "sensitivity_pairs_with_both_peaks": 0,
+  "sensitivity_total_pairs": 120,
+  "primary_measured_screening_reasons": {
+    "insufficient_supported_bins": 16,
+    "gap_in_supported_altitude_coverage": 4
+  },
+  "recorded_rate_aggregation": "equal elapsed exposure; detector live time unavailable",
+  "validation_scope": "retrospective screening on seed 42 held-out predictions",
+  "reproduced_held_out_fits": 30,
+  "reproduced_held_out_predictions": 5508,
+  "max_held_out_prediction_difference_cps": 0.0,
+  "all_data_models_reloaded": 2
+}

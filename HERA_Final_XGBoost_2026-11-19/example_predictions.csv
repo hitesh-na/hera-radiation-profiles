@@ -1,0 +1,5 @@
+Pressure_Pa,HERA_pressure_status,Predicted_CW12_cps,Predicted_CW123_cps
+12000,within_training_pressure_span,12.479043006896973,10.603561401367188
+24000,within_training_pressure_span,9.230171203613281,7.090564727783203
+50000,within_training_pressure_span,2.4386446475982666,1.4920430183410645
+85000,within_training_pressure_span,0.6020553708076477,0.38422006368637085
