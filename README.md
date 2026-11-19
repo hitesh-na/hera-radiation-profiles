@@ -103,7 +103,6 @@ Prediction requires the same verified sensor units, flight IDs and timestamps. T
 
 | File or folder | What it answers |
 |---|---|
-| `00_MASTER_PROJECT_GUIDE.md` | Objective, scientific decisions and completion status |
 | `docs/DATA_REQUIREMENTS.md` | Exact files and conventions needed next |
 | `docs/EXPERIMENT_PROTOCOL.md` | How leakage, tuning and repeated runs are handled |
 | `results/synthetic_demo/REPORT.md` | Completed example results, explicitly synthetic |
