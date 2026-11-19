@@ -1,7 +1,9 @@
 {
   "00_MASTER_PROJECT_GUIDE.md": "8557beb14a64945b218fc90940f4094e0e1c2930559c32ac9a67e6ef43fdf769",
+  "HERA_Final_XGBoost_2026-11-19/README.md": "b29f4a5e5d31cafeb8095a85019cda0eadb3be7b52c0d27b441df0a26f0ebaa5",
+  "HERA_Final_XGBoost_2026-11-19/requirements.txt": "d596bb75560192ea3d8c6091f6dc5b5710bdd4a3e3c57a8cd6bfbed07d4220f5",
   "PROJECT_PROPOSAL.md": "98a31e97ce9722f0b554f439a77115d8348520c15f6c6f14e0a378bbccaf6f48",
-  "README.md": "c7aa78265056dc2dfd0725fdaa18f4abb6eb20042ba84ef244201a93fca2bc7a",
+  "README.md": "284dae8adfdf5bba9754628eca72276cd6e9bdc3d8499a8ad67d75484c342922",
   "config/combined_metadata.example.json": "e1111badc5d8b27e20e2a3724d7e39c8a2cd61cde4a4f0045a51b0bf88a50d1c",
   "config/demo.json": "c67f00a307adff92a2cdff6cbd176f416fc062b62f6feb0b693296d0a0e48271",
   "config/flights.example.json": "1659e9d5c3dfff84f817e6602548bb11558eac237d82156bc1ff08a41d4f45ad",

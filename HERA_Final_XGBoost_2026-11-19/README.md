@@ -1,6 +1,6 @@
 # HERA final XGBoost models
 
-Open **OPEN_FINAL_RESULTS.html** for the project results, plots and peak screening. The final refit predicts recorded counts per elapsed second for CW1&2 and CW1&2&3 from pressure alone. Each channel has a separate saved model trained on the same 918 complete 30-second intervals from five flights, with equal total weight per flight.
+Open **OPEN_FINAL_RESULTS.html** from a local checkout for the project results, plots and peak screening. You can also view the [plots on GitHub](figures/model_profiles.png). The final refit predicts recorded counts per elapsed second for CW1&2 and CW1&2&3 from pressure alone. Each channel has a separate saved model trained on the same 918 complete 30-second intervals from five flights, with equal total weight per flight.
 
 | Channel | Earlier mean whole-flight test RMSE | Earlier mean whole-flight test R² |
 |---|---:|---:|
@@ -11,12 +11,15 @@ These scores come from fitting on four flights and predicting the fifth, average
 
 ## Make predictions
 
-With Python 3.11 or 3.12, open a terminal in the extracted folder and install the pinned dependencies in a project environment.
+From this folder, use Python 3.11 or 3.12 to create a separate environment for the final models. On Windows PowerShell:
 
 ```powershell
-python -m pip install -r requirements.txt
-python predict.py example_pressure.csv predictions.csv
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe predict.py example_pressure.csv predictions.csv
 ```
+
+On macOS or Linux, use `.venv/bin/python` for the last two commands. The requirements select the XGBoost package for your platform.
 
 Replace `example_pressure.csv` with prepared flight inputs. Supply exactly one column named `Pressure_Pa` or `Pressure[Pa]`, in pascals. For comparable predictions, prepare the same kind of screened 30-second logger intervals and use the same counter definitions. The output preserves the input rows and adds predicted rates for both channels and a pressure status. Rows with invalid pressure or pressure outside the training span of about 1,198 to 94,357 Pa have blank predictions. The span describes the minimum and maximum observed pressures.
 

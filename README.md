@@ -1,10 +1,25 @@
 # Radiation Profiles & Pfotzer Peak Estimation
 
-> Map continuous atmospheric radiation curves to precisely locate the Pfotzer-Regener maximum and generate standardized profiles for cross-flight comparison.
+Study how flight measurements relate to recorded atmospheric radiation count rates and evaluate whether flight profiles support an estimate of the Pfotzer peak altitude.
 
-**Current status: the runnable project is implemented and tested on labeled synthetic flights. Real HERA flight files were not included with the supplied notebooks. There are no new empirical HERA XGBoost scores or Pfotzer peak estimates in this package.**
+## Final models and results
 
-Start with `notebooks/Exploration_and_Results.ipynb`. It opens the completed example, explains each stage, and provides switches to rerun training or use verified real data. You can read its saved outputs without retraining. The archive must be extracted before opening the notebook.
+The [final XGBoost package](HERA_Final_XGBoost_2026-11-19/) contains two saved models, the plots, and a script that predicts CW1&2 and CW1&2&3 count rates from air pressure in pascals. Both models were fitted on 918 complete 30-second intervals from five HERA balloon flights.
+
+| Recorded channel | Pressure-only mean held-out RMSE |
+|---|---:|
+| CW1&2 | 0.512 counts/s |
+| CW1&2&3 | 0.497 counts/s |
+
+Pressure alone gave the lowest average error among the configurations tested, including altitude alone and models with additional sensor readings. In both channels, the modeled count rate rose as pressure dropped, reached a broad maximum, then fell at the lowest pressures. Each score comes from the earlier whole-flight tests that trained on four flights and predicted the fifth. Independent testing of the two final all-flight models remains open. The Pfotzer peak altitude remains unresolved because the individual altitude profiles had gaps or too few supported bins.
+
+- [Run predictions with a pressure CSV](HERA_Final_XGBoost_2026-11-19/README.md#make-predictions)
+- [View the final plots](HERA_Final_XGBoost_2026-11-19/figures/model_profiles.png)
+- [Inspect the exploratory experiment and data](HERA_Exploratory_Training_2026-11-06/README.md)
+
+## Original notebook and synthetic example
+
+The original notebook shows the workflow on labeled synthetic flights and supports separate experiments on verified datasets. Start with [Exploration and Results](notebooks/Exploration_and_Results.ipynb). You can inspect the saved example without retraining.
 
 ## Included
 
@@ -73,7 +88,7 @@ python -m pfotzer_xgb run --data data/processed/run01/combined.csv --metadata da
 
 Never mark conventions verified merely to bypass a check. Unknown exposure cannot be converted into a valid zero rate. A combined table containing CPS without raw counts/exposure is accepted only with a documented CPS derivation; counting uncertainty then remains unavailable.
 
-## Refit for future flights
+## Refit the original workflow with verified data
 
 After completing evaluation, the predeclared tuned-engineered variant can be fitted to all supplied flights. It is tuned by grouped CV again and then trained on all rows; it has **no independent test score of its own**.
 
